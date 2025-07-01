@@ -1,0 +1,8 @@
+pandas
+pyarrow
+pillow
+imagehash
+requests
+matplotlib
+scikit-image
+opencv-python
