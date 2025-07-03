@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-"""
-Purpose:
-  Extract and download logos for a fixed subset of domains,
-  handling SVG inline, deduplicating, brand homepage fallback,
-  and logging all errors and heuristics.
-  No cairosvg! SVG saved as-is, hash is on SVG or PNG bytes.
-"""
-
 import os
 import csv
 import time
@@ -16,14 +7,15 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 import hashlib
 
-# === Configuration ===
+# --- Config ---
 SUBSET_CSV    = "data/subset25random.csv"
 OUTPUT_DIR    = "data/logos/"
 LOG_CSV       = "data/extraction_log.csv"
 HTTP_TIMEOUT  = 8
 MAX_RETRIES   = 2
-USER_AGENT    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+USER_AGENT    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
 
+# -- Helpers --
 def ensure_dirs():
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     Path(os.path.dirname(LOG_CSV)).mkdir(parents=True, exist_ok=True)
@@ -47,8 +39,7 @@ def load_and_clean_domains():
 def fetch_url(url):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            resp = requests.get(url, timeout=HTTP_TIMEOUT,
-                                headers={"User-Agent": USER_AGENT})
+            resp = requests.get(url, timeout=HTTP_TIMEOUT, headers={"User-Agent": USER_AGENT})
             resp.raise_for_status()
             return resp
         except Exception:
@@ -57,36 +48,33 @@ def fetch_url(url):
             else:
                 raise
 
-def extract_svg_from_html(soup, base, safe_name):
-    """
-    Detect SVG inline logo, save as .svg (for hash/cluster).
-    Returns path to SVG or None.
-    """
-    # caută SVG inline cu parent “logo” în class/id
-    for parent in soup.find_all(['div', 'a', 'span'], class_=lambda x: x and 'logo' in x.lower()):
-        svg = parent.find('svg')
-        if svg:
+def is_logo_context(el):
+    """Return True dacă e într-un context de logo principal (header/nav/logo-bar)."""
+    goodwords = ["logo", "header", "nav", "brand", "site-header", "site-logo", "navbar", "main-logo"]
+    badwords = ["partner", "footer", "client", "sponsor", "award", "asociat", "carousel"]
+    # Mergi în sus până la body
+    while el and el.name != "body":
+        attrs = " ".join([el.get("id", ""), " ".join(el.get("class", []))])
+        # Caz pozitiv: logo/header/nav etc.
+        if any(gw in attrs.lower() for gw in goodwords):
+            # Dar să nu fie parteneri/clients/sponsor
+            if not any(bw in attrs.lower() for bw in badwords):
+                return True
+        el = el.parent
+    return False
+
+def extract_svg_logo(soup, safe_name):
+    # SVG inline DOAR dacă în header/nav/logo etc.
+    for svg in soup.find_all("svg"):
+        if is_logo_context(svg):
             svg_str = str(svg)
             svg_path = os.path.join(OUTPUT_DIR, f"{safe_name}.svg")
             with open(svg_path, "w", encoding="utf-8") as f:
                 f.write(svg_str)
             return svg_path
-    # fallback: svg direct în <header> sau la începutul body
-    svg_tag = soup.find('svg')
-    if svg_tag:
-        svg_str = str(svg_tag)
-        svg_path = os.path.join(OUTPUT_DIR, f"{safe_name}.svg")
-        with open(svg_path, "w", encoding="utf-8") as f:
-            f.write(svg_str)
-        return svg_path
     return None
 
 def find_logo_url(domain, fallback_brand_search=True):
-    """
-    Returns (logo_url, strategy, svg_path)
-    strategy = one of ['img-logo', 'link-logo', 'og-image', 'twitter-image', 'svg-inline', 'brand-homepage', 'icon', 'favicon']
-    svg_path = path to svg if detected as inline, else None
-    """
     base = f"https://{domain}"
     safe = domain.replace(".", "_")
     try:
@@ -96,59 +84,53 @@ def find_logo_url(domain, fallback_brand_search=True):
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # 1. img-uri cu "logo" în class/id/alt/src, dar nu cu "slider", "banner", "bgimage", "background", "hero"
+    # 1. LOGO IMG în header/nav/logo (fără partner/footer etc)
     imgs = soup.find_all("img", src=True)
-    candidates = []
-    badwords = ['slider', 'banner', 'bgimage', 'background', 'hero', 'cover', 'mainvisual']
+    header_imgs = []
     for img in imgs:
         src = img.get("src", "").lower()
         alt = img.get("alt", "").lower() if img.get("alt") else ""
         cid = " ".join(img.get("class", [])).lower() if img.get("class") else ""
         iid = img.get("id", "").lower() if img.get("id") else ""
         all_fields = [src, alt, cid, iid]
-        if any('logo' in f for f in all_fields) and not any(bad in f for bad in badwords for f in all_fields):
-            try:
-                w = int(img.get("width", 0))
-                h = int(img.get("height", 0))
-            except:
-                w = h = 0
-            area = w * h
-            candidates.append((area, img["src"]))
-    candidates = [c for c in candidates if c[0] > 0]
-    if candidates:
-        candidates.sort(key=lambda x: x[0])
-        return urljoin(base, candidates[0][1]), "img-logo", None
-    elif imgs:
-        for img in imgs:
-            if "logo" in img.get("src", "").lower():
-                return urljoin(base, img["src"]), "img-logo", None
+        if any('logo' in f for f in all_fields):
+            if is_logo_context(img):
+                # Prefer width mică (nu banner)
+                try:
+                    w = int(img.get("width", 0))
+                    h = int(img.get("height", 0))
+                except:
+                    w = h = 0
+                area = w * h
+                header_imgs.append((area if area > 0 else 99999, img["src"]))
+    if header_imgs:
+        header_imgs.sort(key=lambda x: x[0])
+        return urljoin(base, header_imgs[0][1]), "img-header-logo", None
 
-    # 2. Inline SVG (cu parent logo)
-    svg_path = extract_svg_from_html(soup, base, safe)
+    # 2. Inline SVG în header/nav/logo
+    svg_path = extract_svg_logo(soup, safe)
     if svg_path:
-        return svg_path, "svg-inline", svg_path
+        return svg_path, "svg-inline-header", svg_path
 
     # 3. <link rel="logo">
     logo_link = soup.find("link", rel=lambda x: x and "logo" in x.lower())
     if logo_link and logo_link.get("href"):
         return urljoin(base, logo_link["href"]), "link-logo", None
 
-    # 4. OG image
+    # 4. OG image / Twitter
     og = soup.find("meta", property="og:image")
     if og and og.get("content"):
         return urljoin(base, og["content"]), "og-image", None
-    # 5. Twitter image
     tw = soup.find("meta", attrs={"name": "twitter:image"})
     if tw and tw.get("content"):
         return urljoin(base, tw["content"]), "twitter-image", None
 
-    # 6. link icon
+    # 5. Icon
     icon = soup.find("link", rel=lambda x: x and "icon" in x.lower())
     if icon and icon.get("href"):
         return urljoin(base, icon["href"]), "icon", None
 
-    # 7. Fallback: favicon și/sau homepage brand-mamă
-    fav = urljoin(base, "/favicon.ico")
+    # 6. Fallback: homepage brand (ex: toyota)
     if fallback_brand_search:
         brand_links = soup.find_all("a", class_=lambda x: x and ("brand" in x.lower() or "logo" in x.lower()))
         checked = set()
@@ -163,6 +145,8 @@ def find_logo_url(domain, fallback_brand_search=True):
                 if logo:
                     return logo, f"brand-homepage:{netloc}", svg_path
 
+    # 7. Fallback: favicon (ultimul recurs)
+    fav = urljoin(base, "/favicon.ico")
     return fav, "favicon", None
 
 def save_image_from_url(resp, domain, existing_hashes):
@@ -219,12 +203,11 @@ def main():
             logo_url, strategy, svg_path = find_logo_url(domain)
             if not logo_url:
                 raise ValueError("No logo URL found by any strategy")
-            if strategy == "svg-inline":
+            if strategy == "svg-inline-header":
                 filename, img_hash = save_svg_from_path(logo_url, domain, existing_hashes)
                 message = f"SVG inline extracted. hash={img_hash}"
             elif logo_url.endswith(".svg"):
                 resp = fetch_url(logo_url)
-                # Save SVG direct
                 safe = domain.replace(".", "_")
                 svg_path = os.path.join(OUTPUT_DIR, f"{safe}_{int(time.time())}.svg")
                 with open(svg_path, "wb") as f:
