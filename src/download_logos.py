@@ -11,6 +11,7 @@ import hashlib
 SUBSET_CSV    = "data/subset25random.csv"
 OUTPUT_DIR    = "data/logos/"
 LOG_CSV       = "data/extraction_log.csv"
+FAILED_CSV    = "data/failed_sites.csv"  
 HTTP_TIMEOUT  = 8
 MAX_RETRIES   = 2
 USER_AGENT    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
@@ -19,6 +20,7 @@ USER_AGENT    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (K
 def ensure_dirs():
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     Path(os.path.dirname(LOG_CSV)).mkdir(parents=True, exist_ok=True)
+    Path(os.path.dirname(FAILED_CSV)).mkdir(parents=True, exist_ok=True)  
 
 def load_and_clean_domains():
     seen = set()
@@ -36,35 +38,37 @@ def load_and_clean_domains():
                 cleaned.append(dom)
     return cleaned
 
-def fetch_url(url):
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.get(url, timeout=HTTP_TIMEOUT, headers={"User-Agent": USER_AGENT})
-            resp.raise_for_status()
-            return resp
-        except Exception:
-            if attempt < MAX_RETRIES:
-                time.sleep(1)
-            else:
-                raise
+def fetch_url(url, try_http_fallback=True):
+    try:
+        resp = requests.get(url, timeout=HTTP_TIMEOUT, headers={"User-Agent": USER_AGENT})
+        resp.raise_for_status()
+        return resp
+    except Exception as e:
+        # Dacă HTTPS pică, încearcă HTTP automat
+        if try_http_fallback and url.startswith("https://"):
+            http_url = "http://" + url[8:]
+            try:
+                resp = requests.get(http_url, timeout=HTTP_TIMEOUT, headers={"User-Agent": USER_AGENT})
+                resp.raise_for_status()
+                return resp
+            except Exception as e2:
+                # Eșuat și cu HTTP, ridică excepția inițială
+                raise e
+        else:
+            raise e
 
 def is_logo_context(el):
-    """Return True dacă e într-un context de logo principal (header/nav/logo-bar)."""
     goodwords = ["logo", "header", "nav", "brand", "site-header", "site-logo", "navbar", "main-logo"]
     badwords = ["partner", "footer", "client", "sponsor", "award", "asociat", "carousel"]
-    # Mergi în sus până la body
     while el and el.name != "body":
         attrs = " ".join([el.get("id", ""), " ".join(el.get("class", []))])
-        # Caz pozitiv: logo/header/nav etc.
         if any(gw in attrs.lower() for gw in goodwords):
-            # Dar să nu fie parteneri/clients/sponsor
             if not any(bw in attrs.lower() for bw in badwords):
                 return True
         el = el.parent
     return False
 
 def extract_svg_logo(soup, safe_name):
-    # SVG inline DOAR dacă în header/nav/logo etc.
     for svg in soup.find_all("svg"):
         if is_logo_context(svg):
             svg_str = str(svg)
@@ -80,6 +84,11 @@ def find_logo_url(domain, fallback_brand_search=True):
     try:
         resp = fetch_url(base)
     except Exception as e:
+        with open(FAILED_CSV, "a", newline="", encoding="utf-8") as cf:
+            writer = csv.writer(cf)
+            if cf.tell() == 0:
+                writer.writerow(["domain", "status", "message"])
+            writer.writerow([domain, "fail", "site-unreachable"])
         return None, "site-unreachable", None
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -95,7 +104,6 @@ def find_logo_url(domain, fallback_brand_search=True):
         all_fields = [src, alt, cid, iid]
         if any('logo' in f for f in all_fields):
             if is_logo_context(img):
-                # Prefer width mică (nu banner)
                 try:
                     w = int(img.get("width", 0))
                     h = int(img.get("height", 0))
@@ -103,14 +111,19 @@ def find_logo_url(domain, fallback_brand_search=True):
                     w = h = 0
                 area = w * h
                 header_imgs.append((area if area > 0 else 99999, img["src"]))
+    
+
+
     if header_imgs:
         header_imgs.sort(key=lambda x: x[0])
         return urljoin(base, header_imgs[0][1]), "img-header-logo", None
 
-    # 2. Inline SVG în header/nav/logo
+    # 2. Inline SVG în header/nav/logo 
     svg_path = extract_svg_logo(soup, safe)
     if svg_path:
         return svg_path, "svg-inline-header", svg_path
+
+    
 
     # 3. <link rel="logo">
     logo_link = soup.find("link", rel=lambda x: x and "logo" in x.lower())
@@ -125,12 +138,18 @@ def find_logo_url(domain, fallback_brand_search=True):
     if tw and tw.get("content"):
         return urljoin(base, tw["content"]), "twitter-image", None
 
-    # 5. Icon
+    # 5. Icon <link rel=icon> 
     icon = soup.find("link", rel=lambda x: x and "icon" in x.lower())
     if icon and icon.get("href"):
-        return urljoin(base, icon["href"]), "icon", None
+        try:
+            icon_url = urljoin(base, icon["href"])
+            resp_icon = fetch_url(icon_url)
+            if resp_icon.status_code == 200:
+                return icon_url, "icon", None
+        except Exception:
+            pass
 
-    # 6. Fallback: homepage brand (ex: toyota)
+    # 6. Fallback homepage brand 
     if fallback_brand_search:
         brand_links = soup.find_all("a", class_=lambda x: x and ("brand" in x.lower() or "logo" in x.lower()))
         checked = set()
@@ -145,11 +164,21 @@ def find_logo_url(domain, fallback_brand_search=True):
                 if logo:
                     return logo, f"brand-homepage:{netloc}", svg_path
 
-    # 7. Fallback: favicon (ultimul recurs)
-    fav = urljoin(base, "/favicon.ico")
-    return fav, "favicon", None
+    # 7. Favicon 
+    favicon_url = urljoin(base, "/favicon.ico")
+    try:
+        resp_favicon = fetch_url(favicon_url)
+        if resp_favicon.status_code == 200:
+            return favicon_url, "favicon", None
+    except Exception:
+        pass
+
+    return None, "no-logo", None
+
+
 
 def save_image_from_url(resp, domain, existing_hashes):
+    #print("DEBUG img-download", domain, "status:", resp.status_code, "url:", resp.url)
     img_bytes = resp.content
     img_hash = hashlib.md5(img_bytes).hexdigest()
     if img_hash in existing_hashes:
@@ -193,6 +222,13 @@ def main():
     success = 0
     existing_hashes = {}
     hash_to_domains = {}
+
+ 
+    if not os.path.exists(FAILED_CSV) or os.stat(FAILED_CSV).st_size == 0:
+        with open(FAILED_CSV, "w", newline="", encoding="utf-8") as cf:
+            writer = csv.writer(cf)
+            writer.writerow(["domain", "status", "message"])
+
     for domain in domains:
         logo_url = None
         filename = None
@@ -201,6 +237,7 @@ def main():
         strategy = None
         try:
             logo_url, strategy, svg_path = find_logo_url(domain)
+            #print("DEBUG", domain, "logo_url:", logo_url, "strategy:", strategy)
             if not logo_url:
                 raise ValueError("No logo URL found by any strategy")
             if strategy == "svg-inline-header":
@@ -208,6 +245,7 @@ def main():
                 message = f"SVG inline extracted. hash={img_hash}"
             elif logo_url.endswith(".svg"):
                 resp = fetch_url(logo_url)
+                #print("DEBUG svg-download", domain, "status:", resp.status_code, "url:", resp.url)
                 safe = domain.replace(".", "_")
                 svg_path = os.path.join(OUTPUT_DIR, f"{safe}_{int(time.time())}.svg")
                 with open(svg_path, "wb") as f:
@@ -216,6 +254,7 @@ def main():
                 message = f"SVG URL downloaded. hash={img_hash}"
             else:
                 resp = fetch_url(logo_url)
+                #print("DEBUG img-download", domain, "status:", resp.status_code, "url:", resp.url)
                 filename, img_hash = save_image_from_url(resp, domain, existing_hashes)
                 message = f"Downloaded. hash={img_hash}"
             if img_hash not in hash_to_domains:
@@ -227,6 +266,9 @@ def main():
         except Exception as e:
             log_result(domain, logo_url, filename, "failure", str(e))
             print(f"[FAILURE] {domain} → {e!r}")
+            with open(FAILED_CSV, "a", newline="", encoding="utf-8") as cf:
+                writer = csv.writer(cf)
+                writer.writerow([domain, "fail", str(e)])
 
     print("\nGroups of domains with identical logos:")
     for h, dlist in hash_to_domains.items():
