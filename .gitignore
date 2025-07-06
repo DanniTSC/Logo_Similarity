@@ -79,3 +79,7 @@ cython_debug/
 # MacOS & system files
 .DS_Store
 Thumbs.db
+
+data/logos/
+data/logo_hashes.json
+batches

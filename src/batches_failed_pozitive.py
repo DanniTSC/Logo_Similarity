@@ -1,0 +1,24 @@
+import pandas as pd
+import os
+import glob
+import random
+
+BATCHES_DIR = "batches/"
+OUTPUT_DIR = "batches_review/"
+N_PER_BATCH = 5  
+
+def sample_from_each_batch():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    batch_files = sorted(glob.glob(os.path.join(BATCHES_DIR, "batch_*.csv")))
+    total_sampled = 0
+    for batch in batch_files:
+        df = pd.read_csv(batch)
+        sampled = df.sample(min(N_PER_BATCH, len(df)), random_state=42)
+        out_csv = os.path.join(OUTPUT_DIR, os.path.basename(batch))
+        sampled.to_csv(out_csv, index=False)
+        print(f"Sampled {len(sampled)} from {os.path.basename(batch)}")
+        total_sampled += len(sampled)
+    print(f"\nTotal domenii eșantionate: {total_sampled}")
+
+if __name__ == "__main__":
+    sample_from_each_batch()
