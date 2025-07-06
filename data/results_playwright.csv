@@ -1,0 +1,1119 @@
+domain,status,strategy,filename,hash,error
+stanbicbank.co.zw,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://stanbicbank.co.zw/"", waiting until ""load""
+"
+astrazeneca.ua,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.uaetc
+Call log:
+  - → GET https://astrazeneca.ua/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=FJyZGkw2fEK1vajYpq9sh6KZx48wbiudFj5ogoxOgvtk5wwv9EfB945jHHic4uQGF+YpjQqMCKDBWAvF3tjqj1DX6ddREd/0WurOzsJ2K2Ab7vW6ebD+DiJqVj4P; AWSALBCORS=FJyZGkw2fEK1vajYpq9sh6KZx48wbiudFj5ogoxOgvtk5wwv9EfB945jHHic4uQGF+YpjQqMCKDBWAvF3tjqj1DX6ddREd/0WurOzsJ2K2Ab7vW6ebD+DiJqVj4P; utag_main=v_id:0197e07047a30008d44a32f3d23700029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751818944232$ses_id:1751817144232%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:astrazeneca.ua; AMCVS_F8AB34FA53CE7E830A490D44%40AdobeOrg=1; AMCV_F8AB34FA53CE7E830A490D44%40AdobeOrg=870038026%7CMCIDTS%7C20276%7CMCMID%7C71072343769936749010789891133613435000%7CMCAAMLH-1752421944%7C6%7CMCAAMB-1752421944%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1751824344s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20283%7CvVersion%7C5.0.0; s_getNewRepeat=1751817144880-New; s_vnum=1753995600907%26vn%3D1; s_invisit=true; s_getDaysSinceLastVisit=1751817144909; s_getDaysSinceLastVisit_s=First%20Visit; gpv_pn=az-ua; s_tp=1579; s_ppv=az-ua%2C46%2C46%2C720; s_plt=1.73; s_pltp=az-ua; s_cc=true
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 15:52:25 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=Q6yO2r1gwHyGubwbdGu/29gUrN2O7qnPUqbi9W0eCGzTobbwyPX0cr0mYBv4zA3pRBtjEWrTmP8Yqr54Mq2KsIFwEwJt3km3vutkpqT6ieUh8AYuiQ8hQJHqzw+7; Expires=Sun, 13 Jul 2025 15:52:25 GMT; Path=/,AWSALBCORS=Q6yO2r1gwHyGubwbdGu/29gUrN2O7qnPUqbi9W0eCGzTobbwyPX0cr0mYBv4zA3pRBtjEWrTmP8Yqr54Mq2KsIFwEwJt3km3vutkpqT6ieUh8AYuiQ8hQJHqzw+7; Expires=Sun, 13 Jul 2025 15:52:25 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.uaetc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.uaetc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+toyota-buchreiter-eisenstadt.at,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://toyota-buchreiter-eisenstadt.at/
+Call log:
+  - navigating to ""https://toyota-buchreiter-eisenstadt.at/"", waiting until ""load""
+"
+tupperware.at,fail,,,,No logo found
+ymcasteuben.org,fail,,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://ymcasteuben.org/
+Call log:
+  - navigating to ""https://ymcasteuben.org/"", waiting until ""load""
+"
+cafelasmargaritas.es,success,img-or-favicon,cafelasmargaritas.es_0556af51d2142cc56cd0a50c926cd553.avif,0556af51d2142cc56cd0a50c926cd553,
+affidea.ba,success,img-or-favicon,affidea.ba_43a66381315c64ee11afaa61505ef55e.svg,43a66381315c64ee11afaa61505ef55e,
+unicharm.com.br,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://unicharm.com.br/
+Call log:
+  - navigating to ""https://unicharm.com.br/"", waiting until ""load""
+"
+esseskincare.sg,fail,,,,No logo found
+avoncameroun.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://avoncameroun.com/
+Call log:
+  - navigating to ""https://avoncameroun.com/"", waiting until ""load""
+"
+mazdaofamarillo.com,fail,,,,No logo found
+rheine.schule,success,img-or-favicon,rheine.schule_0eb09320b5dc3baa36c51e298329b581.jpg,0eb09320b5dc3baa36c51e298329b581,
+worldvision.ca,fail,,,,Image fetch failed
+daikin.ge,fail,,,,"Page.goto: net::ERR_CONNECTION_REFUSED at https://daikin.ge/
+Call log:
+  - navigating to ""https://daikin.ge/"", waiting until ""load""
+"
+crocs.co.id,fail,,,,No logo found
+daikin.com.sg,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://daikin.com.sg/
+Call log:
+  - navigating to ""https://daikin.com.sg/"", waiting until ""load""
+"
+renaultmerida.com.mx,success,inline-svg,renaultmerida.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+allianz-kuhlemann.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+veolia.fr,fail,,,,No logo found
+intersport-rent.fr,fail,,,,No logo found
+allianz-rose.info,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+azets.ie,fail,,,,Image fetch failed
+daikin-china.com.cn,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://daikin-china.com.cn/"", waiting until ""load""
+"
+scte-prod.herokuapp.com,fail,,,,No logo found
+saint-gobain.ru,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://saint-gobain.ru/"", waiting until ""load""
+"
+ikea.es,success,img-or-favicon,ikea.es_778440488b03ed52874cc6b30ce8cf45.svg,778440488b03ed52874cc6b30ce8cf45,
+metlife.co.kr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://metlife.co.kr/
+Call log:
+  - navigating to ""https://metlife.co.kr/"", waiting until ""load""
+"
+toyotafocsani.ro,success,img-or-favicon,toyotafocsani.ro_f3ca8c8cf641f7d38bc4972a64fe88dd.png,f3ca8c8cf641f7d38bc4972a64fe88dd,
+renaultsancosme.com.mx,success,inline-svg,renaultsancosme.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+mazdalakeland.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mazdalakeland.com/
+Call log:
+  - navigating to ""https://mazdalakeland.com/"", waiting until ""load""
+"
+renaulttlalnepantla.com.mx,success,inline-svg,renaulttlalnepantla.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+aviapolska.pl,fail,,,,No logo found
+allianz-assistance.ie,fail,,,,Image fetch failed
+decathlon.ch,success,img-or-favicon,decathlon.ch_d3fb14581de45bccb17b5f6129bbb101.png,d3fb14581de45bccb17b5f6129bbb101,
+cdlbarreiras.com.br,success,img-or-favicon,cdlbarreiras.com.br_b5e621f21093cca3be2a43888dfbbe0a.png,b5e621f21093cca3be2a43888dfbbe0a,
+mcdonalds.co.za,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mcdonalds.co.za/"", waiting until ""load""
+"
+nikonschool.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+toyotabacau.ro,success,img-or-favicon,toyotabacau.ro_f3ca8c8cf641f7d38bc4972a64fe88dd.png,f3ca8c8cf641f7d38bc4972a64fe88dd,
+decathlon.hu,success,inline-svg,decathlon.hu_e06f6c4435ec21ac38dba97cf0964cbe.svg,e06f6c4435ec21ac38dba97cf0964cbe,
+isover.se,fail,,,,No logo found
+mazdaoforange.com,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://mazdaoforange.com/
+Call log:
+  - navigating to ""https://mazdaoforange.com/"", waiting until ""load""
+"
+kiamarin.com,fail,,,,No logo found
+toyota-annecy.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-annecy.fr/
+Call log:
+  - navigating to ""https://toyota-annecy.fr/"", waiting until ""load""
+"
+pingusenglish.co.id,fail,,,,No logo found
+veka.pt,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://veka.pt/
+Call log:
+  - navigating to ""https://veka.pt/"", waiting until ""load""
+"
+stanbicbank.co.bw,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://stanbicbank.co.bw/"", waiting until ""load""
+"
+toysrus.com.ph,fail,,,,No logo found
+renaultcampeche.mx,success,inline-svg,renaultcampeche.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+kiaofdaphne.com,fail,,,,No logo found
+isover.ua,fail,,,,No logo found
+toyota-rillieux.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-rillieux.fr/
+Call log:
+  - navigating to ""https://toyota-rillieux.fr/"", waiting until ""load""
+"
+bakertilly.sl,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bakertilly.sl/
+Call log:
+  - navigating to ""https://bakertilly.sl/"", waiting until ""load""
+"
+tupperware.es,fail,,,,No logo found
+sitechsolutions.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://sitechsolutions.com/"", waiting until ""load""
+"
+toysrus.fr,fail,,,,No logo found
+mazda-krakow-kazokuluzar.pl,fail,,,,No logo found
+astrazeneca.hu,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.huetc
+Call log:
+  - → GET https://astrazeneca.hu/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=25pOnmvVjHs1q+ImUvaAihFYxyevn61K5KqY3Ou25x/+vtE8ZuJESpkqQ6WPOEMvqD89M5OJtWpMfjFpsiAQ3S7kQ2DTxV8eNW17aNbSqwS1juzTavDw2VnkUqgP; AWSALBCORS=25pOnmvVjHs1q+ImUvaAihFYxyevn61K5KqY3Ou25x/+vtE8ZuJESpkqQ6WPOEMvqD89M5OJtWpMfjFpsiAQ3S7kQ2DTxV8eNW17aNbSqwS1juzTavDw2VnkUqgP; utag_main=v_id:0197e0752930000f492f1883abd800029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751819264113$ses_id:1751817464113%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 15:57:45 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=sreYtNMnVFJzm7E3TGFCa1ImKuhPFb6kJrUsWfNYKB7Kzh2/rD6qkSce5G6spCje/pb3jXqppOzAiaLSu2zo5HeyYGlgTeePTr/5bipbcCwBG44RoHybeXk5cbge; Expires=Sun, 13 Jul 2025 15:57:45 GMT; Path=/,AWSALBCORS=sreYtNMnVFJzm7E3TGFCa1ImKuhPFb6kJrUsWfNYKB7Kzh2/rD6qkSce5G6spCje/pb3jXqppOzAiaLSu2zo5HeyYGlgTeePTr/5bipbcCwBG44RoHybeXk5cbge; Expires=Sun, 13 Jul 2025 15:57:45 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.huetc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.huetc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+toyotaortakoy.com.tr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://toyotaortakoy.com.tr/
+Call log:
+  - navigating to ""https://toyotaortakoy.com.tr/"", waiting until ""load""
+"
+acuraofwestchester.com,fail,,,,No logo found
+hyundaiblacktown.com.au,success,img-or-favicon,hyundaiblacktown.com.au_021c0fab4dcabe1b172fe82dc67e0c38.svg,021c0fab4dcabe1b172fe82dc67e0c38,
+mercyships.dk,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+plameco.nl,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+allianz.com.gr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://allianz.com.gr/
+Call log:
+  - navigating to ""https://allianz.com.gr/"", waiting until ""load""
+"
+bakertillymapema.se,success,inline-svg,bakertillymapema.se_83d467bdb27ef0d3419e0f1fffe08077.svg,83d467bdb27ef0d3419e0f1fffe08077,
+mazdacity.com,fail,,,,No logo found
+kia-kmv.ru,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kia-kmv.ru/
+Call log:
+  - navigating to ""https://kia-kmv.ru/"", waiting until ""load""
+"
+intersport.si,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://intersport.si/"", waiting until ""load""
+"
+tevamexico.com.mx,fail,,,,Image fetch failed
+allianz-genc.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+suttontools.co.nz,success,img-or-favicon,suttontools.co.nz_d5a84ce44044f9d231b07b5a20132884.png,d5a84ce44044f9d231b07b5a20132884,
+daikin.com.mm,success,inline-svg,daikin.com.mm_69a2731a04662dc3971fdbee2b24ac07.svg,69a2731a04662dc3971fdbee2b24ac07,
+mazdaofspartanburg.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mazdaofspartanburg.com/
+Call log:
+  - navigating to ""https://mazdaofspartanburg.com/"", waiting until ""load""
+"
+hyundaichullora.com.au,success,img-or-favicon,hyundaichullora.com.au_021c0fab4dcabe1b172fe82dc67e0c38.svg,021c0fab4dcabe1b172fe82dc67e0c38,
+mazdafwb.com,fail,,,,No logo found
+saint-gobain-glass.es,fail,,,,No logo found
+reedglobal.bg,fail,,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://reedglobal.bg/
+Call log:
+  - navigating to ""https://reedglobal.bg/"", waiting until ""load""
+"
+orange-bissau.com,fail,,,,"Page.goto: net::ERR_CONNECTION_REFUSED at https://orange-bissau.com/
+Call log:
+  - navigating to ""https://orange-bissau.com/"", waiting until ""load""
+"
+medef-somme.fr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://medef-somme.fr/
+Call log:
+  - navigating to ""https://medef-somme.fr/"", waiting until ""load""
+"
+saint-gobain-solutions.nl,fail,,,,"Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://saint-gobain-solutions.nl/
+Call log:
+  - navigating to ""https://saint-gobain-solutions.nl/"", waiting until ""load""
+"
+soneparfrance.fr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://soneparfrance.fr/
+Call log:
+  - navigating to ""https://soneparfrance.fr/"", waiting until ""load""
+"
+savethechildren.org.za,success,img-or-favicon,savethechildren.org.za_12f53c259044f044658c989212680efa.svg,12f53c259044f044658c989212680efa,
+vans.com.ar,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://vans.com.ar/Content/Vans/favicon.ico
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: LanguajeData=es-AR; ITUTCN_002_M=; ASLBSA=00036100291e7bc153de80154d9b010d88c7272173f8358c34c5dde3eb4882ee09c4; ASLBSACORS=00036100291e7bc153de80154d9b010d88c7272173f8358c34c5dde3eb4882ee09c4; _gcl_au=1.1.185994272.1751817594; _ga=GA1.1.1726268704.1751817594; _ga_ENY47HRVQ4=GS2.1.s1751817593$o1$g0$t1751817594$j59$l0$h1413864861; _fbp=fb.2.1751817594262.670125676102650783; _ga_3FRXCSTGBK=GS2.1.s1751817594$o1$g0$t1751817594$j60$l0$h252458815; __icommTrackerUID={""i"":""user_k0HNoLP8OaBdnp73RTYEDhzJY21RJeaIvDMn_1751817594633"",""s"":false}; _clck=tjngw2%7C2%7Cfxd%7C0%7C2013; _tt_enable_cookie=1; _ttp=01JZG7E9X8M5JJFZKQ9S0G9XPG_.tt.2; ttcsid=1751817594801::Y9kg4TbWS2Z7cgz9yRom.1.1751817594801; wpnViewcount=1; CartExtraData=0; .AspNetCore.Antiforgery.R7bU_yIzIt4=CfDJ8LqXOLnq0A5MlDXdR70PN-GWEsshJ4ZeKJN-pipcSzVGRiMDL2xyN2ki7T5asW4W0DjyPciUmt4hL1zKrnFOxoS0YRp2F9EoXacb9Ek45fuqJ1JJ0qMCY3iu-JrbEdOrCsX8yAAUSGxpxgRQgQpzt_s; ttcsid_CS2OKUBC77U3OBONMP80=1751817594799::A6upSAX9WmfCOjc9WBfw.1.1751817595065; _clsk=ynsjsd%7C1751817595221%7C1%7C1%7Cz.clarity.ms%2Fcollect; TPIDC=7coh-3rhkiypo-75ts3cudrik1z-oak2q6sip35en-r06ah8-oxr; cwdscc=true; _wpn_cotpc=1; sdtpc=1; cus=false; _wpnpecc=1; _wpnmvecc=1; cwdcc=true; WishListUserId=2175d3f4-959d-4e6e-bd43-bd4c213d3971
+"
+mazdaofpottstown.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mazdaofpottstown.com/
+Call log:
+  - navigating to ""https://mazdaofpottstown.com/"", waiting until ""load""
+"
+isover.com.br,fail,,,,No logo found
+alcirclebiz.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://alcirclebiz.com/"", waiting until ""load""
+"
+renault.pe,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://renault.pe/
+Call log:
+  - navigating to ""https://renault.pe/"", waiting until ""load""
+"
+allianz.com.ar,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://allianz.com.ar/"", waiting until ""load""
+"
+kiaofabilene.com,fail,,,,No logo found
+kumonshuppan.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://kumonshuppan.com/"", waiting until ""load""
+"
+trulynolenalagoas.com.br,success,img-or-favicon,trulynolenalagoas.com.br_9709a2dfe190addbc7b9cbf378f661cf.png,9709a2dfe190addbc7b9cbf378f661cf,
+renaultchiapas.com.mx,success,inline-svg,renaultchiapas.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+bakertillylb.com,success,inline-svg,bakertillylb.com_83d467bdb27ef0d3419e0f1fffe08077.svg,83d467bdb27ef0d3419e0f1fffe08077,
+kiaofduluth.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kiaofduluth.com/
+Call log:
+  - navigating to ""https://kiaofduluth.com/"", waiting until ""load""
+"
+plameco.be,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+hahn-kolb.mx,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://hahn-kolb.mx/
+Call log:
+  - navigating to ""https://hahn-kolb.mx/"", waiting until ""load""
+"
+modshair-mannheim.de,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://modshair-mannheim.de/
+Call log:
+  - navigating to ""https://modshair-mannheim.de/"", waiting until ""load""
+"
+decathlon.ro,success,inline-svg,decathlon.ro_68e13b48a7c9b7ba824da666bec552b7.svg,68e13b48a7c9b7ba824da666bec552b7,
+decathlon.pl,success,inline-svg,decathlon.pl_b6f3e51400f94dad5e8e4eff842eb36f.svg,b6f3e51400f94dad5e8e4eff842eb36f,
+lindeoilandgas.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://lindeoilandgas.com/
+Call log:
+  - navigating to ""https://lindeoilandgas.com/"", waiting until ""load""
+"
+wurthindustry.ca,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://wurthindustry.ca/
+Call log:
+  - navigating to ""https://wurthindustry.ca/"", waiting until ""load""
+"
+mazda112.com,fail,,,,No logo found
+pepsico.com.tr,success,inline-svg,pepsico.com.tr_6ce9f4c2ecec861fec504b679c00d833.svg,6ce9f4c2ecec861fec504b679c00d833,
+mtn.co.rw,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mtn.co.rw/
+Call log:
+  - navigating to ""https://mtn.co.rw/"", waiting until ""load""
+"
+allianz-peev.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+mazdaofescondido.com,fail,,,,No logo found
+tbwa.co.nz,success,img-or-favicon,tbwa.co.nz_161c960488e8366b6f1943f56f5f7e3c.svg,161c960488e8366b6f1943f56f5f7e3c,
+moore.es,success,img-or-favicon,moore.es_d928dcf831d5719c8e1e0a5a8368f7be.png,d928dcf831d5719c8e1e0a5a8368f7be,
+miniso-au.com,fail,,,,No logo found
+renaultcancun.com.mx,success,inline-svg,renaultcancun.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+renaultinterlomas.com,success,inline-svg,renaultinterlomas.com_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+mazdaofwestridge.com,fail,,,,No logo found
+renaultcoatzacoalcos.com.mx,success,inline-svg,renaultcoatzacoalcos.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+shimadzu.com.ph,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shimadzu.com.ph/
+Call log:
+  - navigating to ""https://shimadzu.com.ph/"", waiting until ""load""
+"
+mazda.com.sg,fail,,,,No logo found
+mazdaofnorthmiami.com,fail,,,,No logo found
+canon.cl,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://canon.cl/
+Call log:
+  - navigating to ""https://canon.cl/"", waiting until ""load""
+"
+truckcityford.com,fail,,,,No logo found
+bakertilly.com.cy,success,img-or-favicon,bakertilly.com.cy_1123d31372a1fd81785ed96e1bc6a446.png,1123d31372a1fd81785ed96e1bc6a446,
+mazdaofchicagoland.com,fail,,,,No logo found
+mazda-warszawa-auto2000.pl,fail,,,,No logo found
+wurth-int.com,fail,,,,No logo found
+allianz-handwerker.de,fail,,,,Image fetch failed
+mercyships.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+daikinmalaysia.com,fail,,,,Page.content: Unable to retrieve content because the page is navigating and changing the content.
+cfmotoqueretaro.com,success,inline-svg,cfmotoqueretaro.com_3a7c2ee46271ef7f52252f26562211a8.svg,3a7c2ee46271ef7f52252f26562211a8,
+renaultamericas.com.mx,success,img-or-favicon,renaultamericas.com.mx_403a0a7dcf2d617e7ea852bfb9d11945.png,403a0a7dcf2d617e7ea852bfb9d11945,
+kesz.rs,fail,,,,Image fetch failed
+renault-materom.ro,success,img-or-favicon,renault-materom.ro_b02c5dd881fb01718782ff06a6f6c76a.png,b02c5dd881fb01718782ff06a6f6c76a,
+kiaofpa.com,fail,,,,No logo found
+mercyships.fr,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mercyships.fr/"", waiting until ""load""
+"
+renault.com.my,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://renault.com.my/"", waiting until ""load""
+"
+bakertilly.mt,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://bakertilly.mt/"", waiting until ""load""
+"
+repsol.com.mx,fail,,,,No logo found
+printsasia.com,fail,,,,"Page.goto: net::ERR_CERT_REVOKED at https://printsasia.com/
+Call log:
+  - navigating to ""https://printsasia.com/"", waiting until ""load""
+"
+shimadzu-rika.co.jp,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shimadzu-rika.co.jp/
+Call log:
+  - navigating to ""https://shimadzu-rika.co.jp/"", waiting until ""load""
+"
+manpowergroup.ca,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://manpowergroup.ca/"", waiting until ""load""
+"
+chicco.com.tw,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://chicco.com.tw/
+Call log:
+  - navigating to ""https://chicco.com.tw/"", waiting until ""load""
+"
+remax-buchholz.de,success,img-or-favicon,remax-buchholz.de_4522db0df3e9df5ba3644bc3313eff99.ico,4522db0df3e9df5ba3644bc3313eff99,
+cuponesybeneficios.com.co,fail,,,,No logo found
+astrazeneca.no,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.noetc
+Call log:
+  - → GET https://astrazeneca.no/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=oTRUUvypTV1ilCy0E5x6yFacSAg392BpDSeuk35sM4Pu+JW2GH2ocGLYdMABeMNYLM+xuGIvzaPS99jfQhO4EjU2ElrAjlCUBhEzIPEG3Ys7i2Hj7FBQNiJStebG; AWSALBCORS=oTRUUvypTV1ilCy0E5x6yFacSAg392BpDSeuk35sM4Pu+JW2GH2ocGLYdMABeMNYLM+xuGIvzaPS99jfQhO4EjU2ElrAjlCUBhEzIPEG3Ys7i2Hj7FBQNiJStebG; utag_main=v_id:0197e07d62840022015349b7d78000029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751819803077$ses_id:1751818003077%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:06:44 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=vrgHsanPSanQ7fYjrpbOxiQJTHulCJr/Y+wYpFQyqPqBI0qSVSAAfSvznOCQBMSQ+c1fz9CzFVYNt5iQDqx1OMxTh6c+UK2tC/SoPz+kg9VMKUMFu8jO+rd4kb6i; Expires=Sun, 13 Jul 2025 16:06:44 GMT; Path=/,AWSALBCORS=vrgHsanPSanQ7fYjrpbOxiQJTHulCJr/Y+wYpFQyqPqBI0qSVSAAfSvznOCQBMSQ+c1fz9CzFVYNt5iQDqx1OMxTh6c+UK2tC/SoPz+kg9VMKUMFu8jO+rd4kb6i; Expires=Sun, 13 Jul 2025 16:06:44 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.noetc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.noetc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+orange.co.bw,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://orange.co.bw/"", waiting until ""load""
+"
+isover.it,fail,,,,No logo found
+hondaheritagecenter.com,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://hondaheritagecenter.com/
+Call log:
+  - navigating to ""https://hondaheritagecenter.com/"", waiting until ""load""
+"
+mazdacorpuschristi.com,fail,,,,No logo found
+allianz-spm.fr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://allianz-spm.fr/
+Call log:
+  - navigating to ""https://allianz-spm.fr/"", waiting until ""load""
+"
+mazdaoforlandpark.com,fail,,,,No logo found
+renaultpuertovallarta.com.mx,success,inline-svg,renaultpuertovallarta.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+melgarcases.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+kiaofverobeach.com,fail,,,,"Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://kiaofverobeach.com/
+Call log:
+  - navigating to ""https://kiaofverobeach.com/"", waiting until ""load""
+"
+carlsjr.co.nz,fail,,,,No logo found
+howdengroupholdings.com,success,img-or-favicon,howdengroupholdings.com_aa243ff82e232023a05c8866a9803eb5.png,aa243ff82e232023a05c8866a9803eb5,
+kiavacaville.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kiavacaville.com/
+Call log:
+  - navigating to ""https://kiavacaville.com/"", waiting until ""load""
+"
+captrain.pl,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://captrain.pl/"", waiting until ""load""
+"
+kiajc.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kiajc.com/
+Call log:
+  - navigating to ""https://kiajc.com/"", waiting until ""load""
+"
+kiaofstcatharines.com,fail,,,,No logo found
+toyotasud.ro,success,img-or-favicon,toyotasud.ro_f00aa2aef8fd4b8651cd8de4c7ab0945.png,f00aa2aef8fd4b8651cd8de4c7ab0945,
+allianz.ua,fail,,,,Image fetch failed
+freseniuskidneycare.cn,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://freseniuskidneycare.cn/
+Call log:
+  - navigating to ""https://freseniuskidneycare.cn/"", waiting until ""load""
+"
+mitsubishielectric.com.sg,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mitsubishielectric.com.sg/"", waiting until ""load""
+"
+savethechildren.nl,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+sanlorenzo.com.pe,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://sanlorenzo.com.pe/"", waiting until ""load""
+"
+kiamotors.com.kh,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kiamotors.com.kh/
+Call log:
+  - navigating to ""https://kiamotors.com.kh/"", waiting until ""load""
+"
+vectorinfotech.my,success,img-or-favicon,vectorinfotech.my_6834604c9b07e193ab386f2da1b8ba27.png,6834604c9b07e193ab386f2da1b8ba27,
+isuzu.com,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://isuzu.com/wp-content/uploads/2015/11/Isuzu_big_new.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: _ga=GA1.2.1631965515.1751818165; _gid=GA1.2.1293755969.1751818165; _gat=1; JSESSIONID=8EAAFAF2EB3B2C767AD215B1977998E5; _ga_WD9EMDT00M=GS2.2.s1751818165$o1$g0$t1751818165$j60$l0$h0
+"
+pefc.es,success,img-or-favicon,pefc.es_cf2fee264137a993c48b7bfd49a0bf81.ico,cf2fee264137a993c48b7bfd49a0bf81,
+decathlon.cz,success,img-or-favicon,decathlon.cz_c7f58459fa862f321f810057dc3df22f.jpg,c7f58459fa862f321f810057dc3df22f,
+mazdaofportcharlotte.com,fail,,,,No logo found
+mazdaofcolumbia.com,fail,,,,No logo found
+kiaofoldsaybrook.com,fail,,,,No logo found
+duracell.in,success,inline-svg,duracell.in_d096e559c2c5c803a740f6779f4f7019.svg,d096e559c2c5c803a740f6779f4f7019,
+aad-insurance.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://aad-insurance.com/"", waiting until ""load""
+"
+sonepar.pt,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://sonepar.pt/
+Call log:
+  - navigating to ""https://sonepar.pt/"", waiting until ""load""
+"
+lunarclient.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+allianzportugal.pt,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://allianzportugal.pt/
+Call log:
+  - navigating to ""https://allianzportugal.pt/"", waiting until ""load""
+"
+mazdaofsouthcharlotte.com,fail,,,,No logo found
+rotaryclubmedellin.org,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://rotaryclubmedellin.org/"", waiting until ""load""
+"
+synergie.es,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+duracell.com.tr,success,inline-svg,duracell.com.tr_6ec407e95f747bde096174eafc0f26f6.svg,6ec407e95f747bde096174eafc0f26f6,
+saint-gobain.com.co,fail,,,,No logo found
+affresco-decor.com,fail,,,,No logo found
+starkey.co.uk,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://starkey.co.uk/-/media/ConsumerSites/Images/Renderings/Parameters/FullWidth/Starkey/edge-ai-logo-white
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: CONSENTMGR=c1:0%7Cc2:0%7Cc3:0%7Cc4:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0%7Cc9:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc14:0%7Cc15:0%7Cc16:0%7Cts:1751818275124%7Cconsent:false; utag_main=v_id:0197e08189370021558b3f0e3c6800029001a021007e8$_sn:1$_se:1$_ss:1$_st:1751820075128$ses_id:1751818275128%3Bexp-session$_pn:1%3Bexp-session
+"
+risogallo.it,fail,,,,"Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://risogallo.it/
+Call log:
+  - navigating to ""https://risogallo.it/"", waiting until ""load""
+"
+subway.com.tw,fail,,,,Image fetch failed
+trulynolengoias.com.br,success,img-or-favicon,trulynolengoias.com.br_c67250a2e7cd72cad8261a594739fce4.png,c67250a2e7cd72cad8261a594739fce4,
+wuerth.co.th,fail,,,,"Page.goto: net::ERR_CONNECTION_REFUSED at https://wuerth.co.th/
+Call log:
+  - navigating to ""https://wuerth.co.th/"", waiting until ""load""
+"
+kiaofwestchester.com,fail,,,,No logo found
+mcdonalds.com.jo,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mcdonalds.com.jo/"", waiting until ""load""
+"
+mercyships.ch,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+altenromania.ro,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://altenromania.ro/wp-content/themes/alten/img/cropped-favicon-alten-1-32x32.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+mercyships.org.au,success,img-or-favicon,mercyships.org.au_c28c50282186657ba72349c5c8ce156b.svg,c28c50282186657ba72349c5c8ce156b,
+astrazeneca.dk,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.dketc
+Call log:
+  - → GET https://astrazeneca.dk/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=xetkVwT5aCVi3Pd0AWAZ9dkL9oyetHVAYMbX8LytGOZ10F1HF6OfFn8dOR52zZ/i9lq76IQGRVTB0ZH5ZwNyBIqtteIj+QPOUt+6T8NOQegDYDvnP55Bs/2V9Hm/; AWSALBCORS=xetkVwT5aCVi3Pd0AWAZ9dkL9oyetHVAYMbX8LytGOZ10F1HF6OfFn8dOR52zZ/i9lq76IQGRVTB0ZH5ZwNyBIqtteIj+QPOUt+6T8NOQegDYDvnP55Bs/2V9Hm/; utag_main=v_id:0197e082d2440029687e1d13a0e000029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751820159365$ses_id:1751818359365%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:12:40 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=G4lM2ddBV7Q7mYgF3N8Nd5qKF8BQx5VT4Ixhd8cBbjeIiViNX6UPDueSaM4yy3IMkT0kRhUndf+0JqifqezttI4+U4bHuQFu/raVBE4Ps28RR8ZGFWTmqM8y6wGE; Expires=Sun, 13 Jul 2025 16:12:40 GMT; Path=/,AWSALBCORS=G4lM2ddBV7Q7mYgF3N8Nd5qKF8BQx5VT4Ixhd8cBbjeIiViNX6UPDueSaM4yy3IMkT0kRhUndf+0JqifqezttI4+U4bHuQFu/raVBE4Ps28RR8ZGFWTmqM8y6wGE; Expires=Sun, 13 Jul 2025 16:12:40 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.dketc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.dketc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+toyota-corbeil.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-corbeil.fr/
+Call log:
+  - navigating to ""https://toyota-corbeil.fr/"", waiting until ""load""
+"
+saint-gobain.ar,fail,,,,No logo found
+adra.org.au,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://adra.org.au/"", waiting until ""load""
+"
+rexel.se,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+allianz.ie,success,img-or-favicon,allianz.ie_fc7da02b618b794a04420698251c3484.png,fc7da02b618b794a04420698251c3484,
+worldvision.org.uk,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://worldvision.org.uk/media/zdmhnmod/wvuk-logo-2025.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: optimizelyEndUserId=oeu1751818398916r0.24155450281832636; optimizelyRedirectData=a=25756340826&aId=1751818398916&as=&cN=js&cV=0.225.0&d=0f0a268f-1361-4502-9ac0-0ae60dfc774c&i=oeu1751818398916r0.24155450281832636&iS.google_analytics_4=%7B%22is_using_gtm%22%3A%22on%22%7D&isv=2&l=6176791572774912&lN=Copy%20of%20TestID%2039%3A%20Homepage%20Australia%20wireframe%20(CS)&lP=single_experiment&n=920&ns=25898960389&p=25898960389&r=&s=10d42e8b-48ad-4817-ab7d-45e3238e893e&t=1751818398929&v=4772954400096256&vN=Variation%20%231&x=6358391191240704&xN=Copy%20of%20TestID%2039%3A%20Homepage%20Australia%20wireframe%20(CS)
+"
+isover.de,fail,,,,No logo found
+sonepar.com.sg,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sonepar.com.sg/
+Call log:
+  - navigating to ""https://sonepar.com.sg/"", waiting until ""load""
+"
+sekulin-allianz.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+toyota-montluel.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-montluel.fr/
+Call log:
+  - navigating to ""https://toyota-montluel.fr/"", waiting until ""load""
+"
+dci.co.th,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://dci.co.th/
+Call log:
+  - navigating to ""https://dci.co.th/"", waiting until ""load""
+"
+goliathgames.es,success,img-or-favicon,goliathgames.es_4f990b3fb90804bccf78614c96e40a3d.png,4f990b3fb90804bccf78614c96e40a3d,
+fmc-symposium.cz,fail,,,,"Page.goto: net::ERR_CONNECTION_REFUSED at https://fmc-symposium.cz/
+Call log:
+  - navigating to ""https://fmc-symposium.cz/"", waiting until ""load""
+"
+nissanofgardencity.com,fail,,,,No logo found
+mazda.com.kh,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mazda.com.kh/
+Call log:
+  - navigating to ""https://mazda.com.kh/"", waiting until ""load""
+"
+toyota-chartres.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-chartres.fr/
+Call log:
+  - navigating to ""https://toyota-chartres.fr/"", waiting until ""load""
+"
+avis-taiwan.com,fail,,,,"Page.goto: net::ERR_CONNECTION_RESET at https://avis-taiwan.com/
+Call log:
+  - navigating to ""https://avis-taiwan.com/"", waiting until ""load""
+"
+metlife.com.uy,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://metlife.com.uy/
+Call log:
+  - navigating to ""https://metlife.com.uy/"", waiting until ""load""
+"
+thebodyshop.com.br,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://thebodyshop.com.br/
+Call log:
+  - navigating to ""https://thebodyshop.com.br/"", waiting until ""load""
+"
+wurth.co.ke,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://wurth.co.ke/"", waiting until ""load""
+"
+renaultmonterrey.com,success,inline-svg,renaultmonterrey.com_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+weidner.ca,success,img-or-favicon,weidner.ca_052c8d9a2ecbbb1a3af33830b96b2f55.png,052c8d9a2ecbbb1a3af33830b96b2f55,
+aiesec.org.es,success,img-or-favicon,aiesec.org.es_040472441b891fc2c36cbd795f2a9d6c.png,040472441b891fc2c36cbd795f2a9d6c,
+trulynolenparaiba.com.br,success,img-or-favicon,trulynolenparaiba.com.br_9709a2dfe190addbc7b9cbf378f661cf.png,9709a2dfe190addbc7b9cbf378f661cf,
+mazdaofconshohocken.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mazdaofconshohocken.com/
+Call log:
+  - navigating to ""https://mazdaofconshohocken.com/"", waiting until ""load""
+"
+infiniti.com.tw,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://infiniti.com.tw/
+Call log:
+  - navigating to ""https://infiniti.com.tw/"", waiting until ""load""
+"
+extremeadventureraces.com,success,img-or-favicon,extremeadventureraces.com_187e9248c99076bee680b910cc39c64a.png,187e9248c99076bee680b910cc39c64a,
+norauto.com,fail,,,,No logo found
+isover.lv,fail,,,,No logo found
+pepsico.com.pk,success,inline-svg,pepsico.com.pk_4227bc140bba4e61ede25ba27e739d67.svg,4227bc140bba4e61ede25ba27e739d67,
+renault-chihuahua.com,success,inline-svg,renault-chihuahua.com_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+duracell.es,success,inline-svg,duracell.es_c0c73214b2c636564a3c57226fa986e8.svg,c0c73214b2c636564a3c57226fa986e8,
+acuraofwappingersfalls.com,fail,,,,No logo found
+isover.com.ar,fail,,,,No logo found
+atalian.sg,fail,,,,No logo found
+subarumidlandodessa.com,success,img-or-favicon,subarumidlandodessa.com_ec32f91c5bdfe3933e2d53295bf3cdef.jpg,ec32f91c5bdfe3933e2d53295bf3cdef,
+msd-animal-health.es,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://msd-animal-health.es/
+Call log:
+  - navigating to ""https://msd-animal-health.es/"", waiting until ""load""
+"
+path-solutions.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://path-solutions.com/"", waiting until ""load""
+"
+wwf.org.nz,success,img-or-favicon,wwf.org.nz_6b79de98819b84b74570fdd4b8108b85.ico,6b79de98819b84b74570fdd4b8108b85,
+tupperware.com.vn,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://tupperware.com.vn/
+Call log:
+  - navigating to ""https://tupperware.com.vn/"", waiting until ""load""
+"
+zkteco.com.pk,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://zkteco.com.pk/
+Call log:
+  - navigating to ""https://zkteco.com.pk/"", waiting until ""load""
+"
+digilite.com.au,fail,,,,No logo found
+mazdaofalexandria.com,fail,,,,No logo found
+aquatherm-belux.be,success,img-or-favicon,aquatherm-belux.be_13f1c196a0ba1eb671920ae18879f211.svg,13f1c196a0ba1eb671920ae18879f211,
+dmcihomes.jp,fail,,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://dmcihomes.jp/
+Call log:
+  - navigating to ""https://dmcihomes.jp/"", waiting until ""load""
+"
+aeccglobal.co.th,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.aeccglobal.co.thimages
+Call log:
+  - → GET https://aeccglobal.co.th/images/new-logo.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: _gcl_au=1.1.1265807092.1751818631; _ga_RG8FWG2LFJ=GS2.1.s1751818630$o1$g0$t1751818630$j60$l0$h0; _ga=GA1.3.2097055753.1751818631; _gid=GA1.3.1472604778.1751818631; _gat_gtag_UA_63122641_8=1; _fbp=fb.2.1751818631029.189302902970693289; sales1.aeccglobal-_zldp=%2BiIHmhKe3eRJ3VZuo9pBmOR6P0ZNemtskXlpZnbMCnSiCy7S5NV%2BiMIqQqo1x%2BYZ%2FitTzcmL7Ag%3D; sales1.aeccglobal-_zldt=410aa22a-4742-4b28-87ad-95614cb62b0b-1; COOKIE_SHARING=%7B%22actualValue%22%3Afalse%2C%22MOE_DATA_TYPE%22%3A%22boolean%22%7D; moe_uuid=9053e03b-6253-45b2-9854-4bb97ac8be7f
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:17:17 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - transfer-encoding: chunked
+    - connection: keep-alive
+    - server: cloudflare
+    - nel: {""report_to"":""cf-nel"",""success_fraction"":0.0,""max_age"":604800}
+    - x-content-type-options: nosniff
+    - location: https://www.aeccglobal.co.thimages/new-logo.png
+    - cache-control: max-age=2678400
+    - expires: Sun, 06 Jul 2025 16:17:17 GMT
+    - cf-cache-status: EXPIRED
+    - vary: accept-encoding
+    - report-to: {""group"":""cf-nel"",""max_age"":604800,""endpoints"":[{""url"":""https://a.nel.cloudflare.com/report/v4?s=cLRtXuM8ldfh7xN826amz%2FgmhC7BcFy28186XMOuZ2CtfxJR%2B5vxdPsMlm20jK11DkEalYloHZ%2FiCemgDKiv2g5pcXK8%2BU99ZGH%2FdvDFOCUpvLjTfCeYY9sWMA%3D%3D""}]}
+    - cf-ray: 95b0694f88dee3dd-OTP
+    - alt-svc: h3="":443""; ma=86400
+  - → GET https://www.aeccglobal.co.thimages/new-logo.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+kiamotors.com.co,success,img-or-favicon,kiamotors.com.co_b26139ee70f17582ff6c8cf5c4b60acf.svg,b26139ee70f17582ff6c8cf5c4b60acf,
+renaultpatriotismo.com.mx,success,inline-svg,renaultpatriotismo.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+manpower.co.za,fail,,,,No logo found
+allianz-sebastiankoch.de,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+trulynolencampogrande.com.br,success,img-or-favicon,trulynolencampogrande.com.br_c67250a2e7cd72cad8261a594739fce4.png,c67250a2e7cd72cad8261a594739fce4,
+aamcogreensburgpa.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://aamcogreensburgpa.com/"", waiting until ""load""
+"
+pkfcemac.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+orbico.com.mk,fail,,,,No logo found
+lghealthjobs.org,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://lghealthjobs.org/
+Call log:
+  - navigating to ""https://lghealthjobs.org/"", waiting until ""load""
+"
+renaulttepic.mx,success,inline-svg,renaulttepic.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+einhell.pl,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+duracell.pl,success,inline-svg,duracell.pl_c0c73214b2c636564a3c57226fa986e8.svg,c0c73214b2c636564a3c57226fa986e8,
+allianz-reiseschutz.de,fail,,,,Image fetch failed
+rinnai.com.tw,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rinnai.com.tw/
+Call log:
+  - navigating to ""https://rinnai.com.tw/"", waiting until ""load""
+"
+aiesec.gr,success,img-or-favicon,aiesec.gr_c210a5e7d9df990beb92de3354b25325.jpg,c210a5e7d9df990beb92de3354b25325,
+linexranchocordova.com,fail,,,,No logo found
+starbucks.com.gr,success,inline-svg,starbucks.com.gr_5ab906b901de724d98ac4d957b181721.svg,5ab906b901de724d98ac4d957b181721,
+isover.fi,fail,,,,No logo found
+mazdaofnewrochelle.com,fail,,,,No logo found
+cleansui-usa.com,fail,,,,No logo found
+budgetqatar.com,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://budgetqatar.com/
+Call log:
+  - navigating to ""https://budgetqatar.com/"", waiting until ""load""
+"
+svnnc.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://svnnc.com/"", waiting until ""load""
+"
+chicco.com.tr,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+allianz.sg,fail,,,,Image fetch failed
+pepsico.com.co,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://pepsico.com.co/"", waiting until ""load""
+"
+pepsico.fr,success,inline-svg,pepsico.fr_6ce9f4c2ecec861fec504b679c00d833.svg,6ce9f4c2ecec861fec504b679c00d833,
+designpluz.com,success,img-or-favicon,designpluz.com_f68230854c66328aa0111601f4df97dc.svg,f68230854c66328aa0111601f4df97dc,
+vwswestgarth.com,fail,,,,"Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://vwswestgarth.com/
+Call log:
+  - navigating to ""https://vwswestgarth.com/"", waiting until ""load""
+"
+mitsubishielectricmalaysia.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://mitsubishielectricmalaysia.com/
+Call log:
+  - navigating to ""https://mitsubishielectricmalaysia.com/"", waiting until ""load""
+"
+acuraofpeabody.com,fail,,,,No logo found
+eis.com.tr,fail,,,,No logo found
+starkey.com.br,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://starkey.com.br/-/media/ConsumerSites/Images/DataItems/Starkey%20Branded/logo-starkey.svg
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: dtCookie=v_4_srv_1_sn_CE839CEBAD2E3C11EA94EAE9B733112E_perc_100000_ol_0_mul_1_app-3A4b23167f65ae0805_1_rcs-3Acss_0; rxVisitor=17518188636557ELKKJR90PO1TN8BJ4TLADQ6IA301O6J; dtSa=-; utag_main=v_id:0197e08a862600028f9cdae834bf00029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751820664167$ses_id:1751818864167%3Bexp-session$_pn:1%3Bexp-session; __trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUxODE4ODY1MjY0fQ==; rxvt=1751820668475|1751818863656; rdtrk=%7B%22id%22%3A%2251b9f4a6-52b1-4d19-9009-c124ae6f90c8%22%7D; dtPC=1$418863654_353h-vIMVQKPCSVHRLBRGMRJMSUWODORCKKTDA-0e0
+"
+siiora.org,success,img-or-favicon,siiora.org_2ad46c571459df5ea256fd2da9e2e837.png,2ad46c571459df5ea256fd2da9e2e837,
+mazdaofwooster.com,fail,,,,No logo found
+medef-ardennes.com,fail,,,,"Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://medef-ardennes.com/
+Call log:
+  - navigating to ""https://medef-ardennes.com/"", waiting until ""load""
+"
+intersport.nl,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+cfmotoindia.com,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://cfmotoindia.com/
+Call log:
+  - navigating to ""https://cfmotoindia.com/"", waiting until ""load""
+"
+cdlvitoria.com.br,success,img-or-favicon,cdlvitoria.com.br_aae4c9238bf47e3d5f5756c46df99b86.png,aae4c9238bf47e3d5f5756c46df99b86,
+hsbcsaudi.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://hsbcsaudi.com/
+Call log:
+  - navigating to ""https://hsbcsaudi.com/"", waiting until ""load""
+"
+countryroadsford.net,fail,,,,No logo found
+shimadzu-techno.co.jp,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shimadzu-techno.co.jp/
+Call log:
+  - navigating to ""https://shimadzu-techno.co.jp/"", waiting until ""load""
+"
+hyundaiofchatham.ca,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://hyundaiofchatham.ca/"", waiting until ""load""
+"
+toyota-niederberger.at,success,img-or-favicon,toyota-niederberger.at_ce21cbdd9b894e6af794813eb3fdaf60.png,ce21cbdd9b894e6af794813eb3fdaf60,
+chubblifefund.com.vn,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://chubblifefund.com.vn/
+Call log:
+  - navigating to ""https://chubblifefund.com.vn/"", waiting until ""load""
+"
+crocs.com.ec,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://crocs.com.ec/"", waiting until ""load""
+"
+astrazeneca.com.tr,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.com.tretc
+Call log:
+  - → GET https://astrazeneca.com.tr/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=v8oGWaJbtAPQy0h9v4NWXtL57xYXBV/mdqrKOZNouRbYajk6n4XVvYR+loryMoNKdnFO4HevzxApghJRVluwGBtyXG27xuArZ/3vkLbrc0M3zCacTiEfovE1YeCH; AWSALBCORS=v8oGWaJbtAPQy0h9v4NWXtL57xYXBV/mdqrKOZNouRbYajk6n4XVvYR+loryMoNKdnFO4HevzxApghJRVluwGBtyXG27xuArZ/3vkLbrc0M3zCacTiEfovE1YeCH; utag_main=v_id:0197e08c04bf000b637fe459ea5500029001f021007e8$_sn:1$_se:1$_ss:1$_st:1751820762113$ses_id:1751818962113%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:22:43 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 278
+    - connection: keep-alive
+    - set-cookie: AWSALB=a4WcdKevjfSYx6KjqgPJoHTlQFxpV9+W/ayKuE9lSsrAEdrolQSEQRQW6XArvF1u1o8dY5oYZtRCHvNeKzTFmtRGnjkjeq9s2jTl9c8LL9vzuMpYAikSZhHTRvXX; Expires=Sun, 13 Jul 2025 16:22:43 GMT; Path=/,AWSALBCORS=a4WcdKevjfSYx6KjqgPJoHTlQFxpV9+W/ayKuE9lSsrAEdrolQSEQRQW6XArvF1u1o8dY5oYZtRCHvNeKzTFmtRGnjkjeq9s2jTl9c8LL9vzuMpYAikSZhHTRvXX; Expires=Sun, 13 Jul 2025 16:22:43 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.com.tretc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.com.tretc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+svndesertcommercial.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://svndesertcommercial.com/"", waiting until ""load""
+"
+deswam.in,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://deswam.in/
+Call log:
+  - navigating to ""https://deswam.in/"", waiting until ""load""
+"
+toyota-paris5.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-paris5.fr/
+Call log:
+  - navigating to ""https://toyota-paris5.fr/"", waiting until ""load""
+"
+toysrus.com.sa,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://toysrus.com.sa/
+Call log:
+  - navigating to ""https://toysrus.com.sa/"", waiting until ""load""
+"
+toyotabatangas.com.ph,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://toyotabatangas.com.ph/"", waiting until ""load""
+"
+plameco-huizen.nl,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://plameco-huizen.nl/
+Call log:
+  - navigating to ""https://plameco-huizen.nl/"", waiting until ""load""
+"
+astrazeneca.ca,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.caetc
+Call log:
+  - → GET https://astrazeneca.ca/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=Os/pWeRC2ZSCWW1e+g4t1rDpMXThSlX1c9026n7BwLfH7+Po36aZs8sw83gwfnJtrhKKs/aM/toi110rt3Zf9Vbb5Hb/IaIs4mHWOLPuBrjO5rfi+IEQFFs1njZH; AWSALBCORS=Os/pWeRC2ZSCWW1e+g4t1rDpMXThSlX1c9026n7BwLfH7+Po36aZs8sw83gwfnJtrhKKs/aM/toi110rt3Zf9Vbb5Hb/IaIs4mHWOLPuBrjO5rfi+IEQFFs1njZH; utag_main=v_id:0197e08cbfab0014ef37b98f80d800029001d021007e8$_sn:1$_se:1$_ss:1$_st:1751820809964$ses_id:1751819009964%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:23:31 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=xZ+33ebNAypjXkWJ5SyOElxDVTMZFUaDwaMasGsOe9N84ICznum2pgIiPsr1Ym4G4PE2//nCanYjyThSO9IV3uH5JQtRhze1rryLF/AN5vijliPr6YKYpeB5GS+J; Expires=Sun, 13 Jul 2025 16:23:31 GMT; Path=/,AWSALBCORS=xZ+33ebNAypjXkWJ5SyOElxDVTMZFUaDwaMasGsOe9N84ICznum2pgIiPsr1Ym4G4PE2//nCanYjyThSO9IV3uH5JQtRhze1rryLF/AN5vijliPr6YKYpeB5GS+J; Expires=Sun, 13 Jul 2025 16:23:31 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.caetc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.caetc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+mazdaofbedford.com,fail,,,,No logo found
+habitatbroward.org,fail,,,,No logo found
+aon.lt,success,img-or-favicon,aon.lt_fea9d39f1638256ebc87ce5e5a8ec628.png,fea9d39f1638256ebc87ce5e5a8ec628,
+kiaofmurfreesboro.com,fail,,,,No logo found
+myplumberca.com,fail,,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://myplumberca.com/
+Call log:
+  - navigating to ""https://myplumberca.com/"", waiting until ""load""
+"
+amnesty.org.ph,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://amnesty.org.ph/
+Call log:
+  - navigating to ""https://amnesty.org.ph/"", waiting until ""load""
+"
+toyota-givors.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-givors.fr/
+Call log:
+  - navigating to ""https://toyota-givors.fr/"", waiting until ""load""
+"
+franzcollection.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://franzcollection.com/
+Call log:
+  - navigating to ""https://franzcollection.com/"", waiting until ""load""
+"
+bigfootdigital.co.uk,success,img-or-favicon,bigfootdigital.co.uk_bc3df3cac2f4f2ecb84c49f120cfdf81.png,bc3df3cac2f4f2ecb84c49f120cfdf81,
+kiacoldlake.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://kiacoldlake.com/"", waiting until ""load""
+"
+kiaofgrandblanc.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kiaofgrandblanc.com/
+Call log:
+  - navigating to ""https://kiaofgrandblanc.com/"", waiting until ""load""
+"
+azetsconsulting.no,fail,,,,Image fetch failed
+aireserv.ca,fail,,,,No logo found
+isover.co.kr,fail,,,,No logo found
+invisalign.co.kr,fail,,,,Image fetch failed
+biolchim.com.br,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://biolchim.com.br/biolchim/wp-content/uploads/2016/09/ico2.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: _fbp=fb.2.1751819102256.165966946852686564; _hjSessionUser_5175157=eyJpZCI6ImU3OTQ1ZjBmLTg4NDgtNTY1MC1iYzAzLTE1OTIyMTJjZGVmNSIsImNyZWF0ZWQiOjE3NTE4MTkxMDI5NzYsImV4aXN0aW5nIjp0cnVlfQ==; _hjSession_5175157=eyJpZCI6IjUyMmM4MWU5LTEwNzAtNDRmYy1iMTk4LTBiYzQ1MTZmZGRkMCIsImMiOjE3NTE4MTkxMDI5NzcsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=
+"
+toysrus.de,fail,,,,No logo found
+pussyspace.net,success,img-or-favicon,pussyspace.net_fee263e801d6998a6151d60df4b77133.png,fee263e801d6998a6151d60df4b77133,
+aon.lv,success,img-or-favicon,aon.lv_fea9d39f1638256ebc87ce5e5a8ec628.png,fea9d39f1638256ebc87ce5e5a8ec628,
+kiaofwestburlington.com,fail,,,,No logo found
+tbwazim.co.zw,fail,,,,No logo found
+duracell.it,success,inline-svg,duracell.it_c0c73214b2c636564a3c57226fa986e8.svg,c0c73214b2c636564a3c57226fa986e8,
+ebay.com.tw,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://ebay.com.tw/"", waiting until ""load""
+"
+vedanta-zincinternational.com,success,inline-svg,vedanta-zincinternational.com_14a9e473bd3c5f6574cca0839ac5aee1.svg,14a9e473bd3c5f6574cca0839ac5aee1,
+scoutaerialafrica.com,success,img-or-favicon,scoutaerialafrica.com_78f7a79da1642ea052168956cd630b5f.png,78f7a79da1642ea052168956cd630b5f,
+intersport.hr,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://intersport.hr/"", waiting until ""load""
+"
+aspenpharma.es,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://aspenpharma.es/
+Call log:
+  - navigating to ""https://aspenpharma.es/"", waiting until ""load""
+"
+tbwa.com.hk,success,img-or-favicon,tbwa.com.hk_6c1c73ac46732cbe50361ce95a7a5bf5.png,6c1c73ac46732cbe50361ce95a7a5bf5,
+wurthcanarias.es,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://wurthcanarias.es/
+Call log:
+  - navigating to ""https://wurthcanarias.es/"", waiting until ""load""
+"
+kiaoflumberton.com,fail,,,,No logo found
+trulynolenrecife.com.br,success,img-or-favicon,trulynolenrecife.com.br_c67250a2e7cd72cad8261a594739fce4.png,c67250a2e7cd72cad8261a594739fce4,
+unicharm.co.in,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://unicharm.co.in/"", waiting until ""load""
+"
+pepsico.rs,success,inline-svg,pepsico.rs_4227bc140bba4e61ede25ba27e739d67.svg,4227bc140bba4e61ede25ba27e739d67,
+worldvisionamericalatina.org,success,img-or-favicon,worldvisionamericalatina.org_d266869a22cc0ebceb39cedbb8387e70.png,d266869a22cc0ebceb39cedbb8387e70,
+trulynolenpiaui.com.br,success,img-or-favicon,trulynolenpiaui.com.br_9709a2dfe190addbc7b9cbf378f661cf.png,9709a2dfe190addbc7b9cbf378f661cf,
+travelocarbooking.com,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://travelocarbooking.com/
+Call log:
+  - navigating to ""https://travelocarbooking.com/"", waiting until ""load""
+"
+mazdaofmilford.com,fail,,,,No logo found
+toyotapasongtamo.com,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://www.toyotapasongtamo.com/wp-content/uploads/2022/05/toyota-product-logo-125x106.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+plameco.at,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+rubiomonocoat.com.pl,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://rubiomonocoat.com.pl/
+Call log:
+  - navigating to ""https://rubiomonocoat.com.pl/"", waiting until ""load""
+"
+isover.ie,fail,,,,No logo found
+ringcontainers.co.uk,fail,,,,Image fetch failed
+renaultpatria.com.mx,success,inline-svg,renaultpatria.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+bluecardagency.ru,success,img-or-favicon,bluecardagency.ru_fa56c826d1f7f39f363b1de660728b1e.svg,fa56c826d1f7f39f363b1de660728b1e,
+pepsico.es,success,inline-svg,pepsico.es_6ce9f4c2ecec861fec504b679c00d833.svg,6ce9f4c2ecec861fec504b679c00d833,
+mazdademagog.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+kiaofbillings.com,fail,,,,No logo found
+reedglobal.com.tr,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+nissanofthebronx.com,fail,,,,No logo found
+duracell.co.za,success,inline-svg,duracell.co.za_c0c73214b2c636564a3c57226fa986e8.svg,c0c73214b2c636564a3c57226fa986e8,
+crif.sk,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://crif.sk/"", waiting until ""load""
+"
+santanderuniversidades.com.mx,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://santanderuniversidades.com.mx/"", waiting until ""load""
+"
+hansa-flex.be,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://hansa-flex.be/
+Call log:
+  - navigating to ""https://hansa-flex.be/"", waiting until ""load""
+"
+pepsico.co.it,success,inline-svg,pepsico.co.it_4227bc140bba4e61ede25ba27e739d67.svg,4227bc140bba4e61ede25ba27e739d67,
+sonepar.pe,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sonepar.pe/
+Call log:
+  - navigating to ""https://sonepar.pe/"", waiting until ""load""
+"
+mazdadesherbrooke.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+kiaofcoatesville.com,fail,,,,No logo found
+astrazeneca.pt,fail,,,,"APIRequestContext.get: getaddrinfo ENOTFOUND www.astrazeneca.ptetc
+Call log:
+  - → GET https://astrazeneca.pt/etc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: AWSALB=WaIQ5j0Ucu+t+WtBDHP5WdzTRmFNRS2g5XHc8FlUq6KOcMGmCubT7RRswUx8e4iL2FUm4k8MUFSMynTPeFLgWfJIQHWlXDbHRcqYT8M+UEPmWPlykDhHy/ulh0Fr; AWSALBCORS=WaIQ5j0Ucu+t+WtBDHP5WdzTRmFNRS2g5XHc8FlUq6KOcMGmCubT7RRswUx8e4iL2FUm4k8MUFSMynTPeFLgWfJIQHWlXDbHRcqYT8M+UEPmWPlykDhHy/ulh0Fr; utag_main=v_id:0197e092e556000c4b4f53cd9a3a00029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751821212823$ses_id:1751819412823%3Bexp-session$_pn:1%3Bexp-session
+  - ← 301 Moved Permanently
+    - date: Sun, 06 Jul 2025 16:30:14 GMT
+    - content-type: text/html; charset=iso-8859-1
+    - content-length: 274
+    - connection: keep-alive
+    - set-cookie: AWSALB=arKILvJTDcQDAZlaBQ964z+76sqnZ+Q+5E4CmfzKNgTScdX12f3ct/4AdIBx7JFHn8xs3l16RiLg5jSQSWUsnj6AAdevBmSPP4hRfPxBqXJwY4F/Q41p+mBJaZIw; Expires=Sun, 13 Jul 2025 16:30:14 GMT; Path=/,AWSALBCORS=arKILvJTDcQDAZlaBQ964z+76sqnZ+Q+5E4CmfzKNgTScdX12f3ct/4AdIBx7JFHn8xs3l16RiLg5jSQSWUsnj6AAdevBmSPP4hRfPxBqXJwY4F/Q41p+mBJaZIw; Expires=Sun, 13 Jul 2025 16:30:14 GMT; Path=/; SameSite=None; Secure
+    - server: Apache
+    - location: https://www.astrazeneca.ptetc/designs/az/img/logo-az-condensed.png
+  - → GET https://www.astrazeneca.ptetc/designs/az/img/logo-az-condensed.png
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+"
+jdm.com.pe,success,img-or-favicon,jdm.com.pe_ed09b23a895b42ccf739f8564de24a7c.svg,ed09b23a895b42ccf739f8564de24a7c,
+stanbicbank.co.ke,fail,,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://stanbicbank.co.ke/
+Call log:
+  - navigating to ""https://stanbicbank.co.ke/"", waiting until ""load""
+"
+wurth.es,fail,,,,No logo found
+mitsubishielevator.co.kr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mitsubishielevator.co.kr/
+Call log:
+  - navigating to ""https://mitsubishielevator.co.kr/"", waiting until ""load""
+"
+mazdaoflodi.com,fail,,,,No logo found
+kiaofmuncie.com,fail,,,,No logo found
+amway.ca,fail,,,,Image fetch failed
+sonepar.hu,fail,,,,"Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://sonepar.hu/
+Call log:
+  - navigating to ""https://sonepar.hu/"", waiting until ""load""
+"
+avonworldwide.com,success,img-or-favicon,avonworldwide.com_75e6710dc533884649a50aae71a8ca66.ico,75e6710dc533884649a50aae71a8ca66,
+starkey.com.co,fail,,,,"APIRequestContext.get: unable to verify the first certificate
+Call log:
+  - → GET https://starkey.com.co/-/media/International/US/Images/global/starkey-logo.svg
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: dtCookie=v_4_srv_3_sn_53E2324505AA41290AAF5CB54AE55788_perc_100000_ol_0_mul_1_app-3A4b23167f65ae0805_1_rcs-3Acss_0; rxVisitor=1751819463088OCOUDUJ2BAL21FFQ8H9KLGEG3JSOTEIF; dtSa=-; CONSENTMGR=c1:0%7Cc2:0%7Cc3:0%7Cc4:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0%7Cc9:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc14:0%7Cc15:0%7Cc16:0%7Cts:1751819463265%7Cconsent:false; utag_main=v_id:0197e093aa6300204046abfe8b1000029001b021007e8$_sn:1$_se:1$_ss:1$_st:1751821263268$ses_id:1751819463268%3Bexp-session$_pn:1%3Bexp-session; rxvt=1751821267789|1751819463089; dtPC=3$419463086_87h-vWJVMQUVHMWOUTBPLUHOPKFLJKJAMMTCK-0e0
+"
+renaultdelsol.com.mx,success,inline-svg,renaultdelsol.com.mx_016061f67428406b1af60acf56ab8a9f.svg,016061f67428406b1af60acf56ab8a9f,
+adra.ca,success,img-or-favicon,adra.ca_3508cbc9abe5ff672ed89fbdab363f71.svg,3508cbc9abe5ff672ed89fbdab363f71,
+pamline.fr,fail,,,,No logo found
+veolia.co.uk,fail,,,,No logo found
+pepsico.ua,success,inline-svg,pepsico.ua_4227bc140bba4e61ede25ba27e739d67.svg,4227bc140bba4e61ede25ba27e739d67,
+solatube.no,success,img-or-favicon,solatube.no_bc6e056f4d750dba3226cc9a1b372d0a.png,bc6e056f4d750dba3226cc9a1b372d0a,
+tapflo.by,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://tapflo.by/
+Call log:
+  - navigating to ""https://tapflo.by/"", waiting until ""load""
+"
+medef-htcis.com,fail,,,,"Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://medef-htcis.com/
+Call log:
+  - navigating to ""https://medef-htcis.com/"", waiting until ""load""
+"
+mitsubishielectric.com.cn,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mitsubishielectric.com.cn/
+Call log:
+  - navigating to ""https://mitsubishielectric.com.cn/"", waiting until ""load""
+"
+kiaprimavera.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kiaprimavera.com/
+Call log:
+  - navigating to ""https://kiaprimavera.com/"", waiting until ""load""
+"
+pmcorp.mx,success,img-or-favicon,pmcorp.mx_2d8a389db528ce2d8197665a42fb5248.png,2d8a389db528ce2d8197665a42fb5248,
+pepsico.pt,success,inline-svg,pepsico.pt_6ce9f4c2ecec861fec504b679c00d833.svg,6ce9f4c2ecec861fec504b679c00d833,
+indianmotorcycle.com.ar,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://indianmotorcycle.com.ar/"", waiting until ""load""
+"
+manpowergroup.ch,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://manpowergroup.ch/
+Call log:
+  - navigating to ""https://manpowergroup.ch/"", waiting until ""load""
+"
+microbit.nl,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://microbit.nl/
+Call log:
+  - navigating to ""https://microbit.nl/"", waiting until ""load""
+"
+thegoodlobby.fr,fail,,,,No logo found
+aiesec.org.rs,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://aiesec.org.rs/
+Call log:
+  - navigating to ""https://aiesec.org.rs/"", waiting until ""load""
+"
+engie.com.au,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+pepsico.com.br,success,inline-svg,pepsico.com.br_4227bc140bba4e61ede25ba27e739d67.svg,4227bc140bba4e61ede25ba27e739d67,
+shimadzu.com.cn,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shimadzu.com.cn/
+Call log:
+  - navigating to ""https://shimadzu.com.cn/"", waiting until ""load""
+"
+altriusconsulting.com,success,img-or-favicon,altriusconsulting.com_2366e2603ceffbb40899c84fdd580c5b.png,2366e2603ceffbb40899c84fdd580c5b,
+shimadzu.co.kr,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shimadzu.co.kr/
+Call log:
+  - navigating to ""https://shimadzu.co.kr/"", waiting until ""load""
+"
+acuraoframsey.com,fail,,,,No logo found
+soneparusa.com,fail,,,,No logo found
+seiban.com,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://seiban.com/
+Call log:
+  - navigating to ""https://seiban.com/"", waiting until ""load""
+"
+entergynewsroom.com,fail,,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://entergynewsroom.com/
+Call log:
+  - navigating to ""https://entergynewsroom.com/"", waiting until ""load""
+"
+gs1tn.org,success,img-or-favicon,gs1tn.org_89f0e434bdb6a990148678016e17f789.png,89f0e434bdb6a990148678016e17f789,
+entergy-nuclear.com,success,img-or-favicon,entergy-nuclear.com_c8f2051e6213e93311f48c9191435c2c.png,c8f2051e6213e93311f48c9191435c2c,
+mcdonalds-mcdelivery.es,success,img-or-favicon,mcdonalds-mcdelivery.es_6f8996eb0cb0e61e5e11e9472c6f4b4b.png,6f8996eb0cb0e61e5e11e9472c6f4b4b,
+savethechildren.org.uk,success,img-or-favicon,savethechildren.org.uk_03b17244c817a8b40181e2e350d8e464.svg,03b17244c817a8b40181e2e350d8e464,
+overheaddoorsrichmond.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+toyota-magny.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-magny.fr/
+Call log:
+  - navigating to ""https://toyota-magny.fr/"", waiting until ""load""
+"
+toyotamacau.com,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://toyotamacau.com/
+Call log:
+  - navigating to ""https://toyotamacau.com/"", waiting until ""load""
+"
+zenithplasticsurgery.com,fail,,,,"APIRequestContext.get: Protocol ""data:"" not supported. Expected ""http:"""
+isover.at,fail,,,,No logo found
+duracell.fr,success,inline-svg,duracell.fr_c0c73214b2c636564a3c57226fa986e8.svg,c0c73214b2c636564a3c57226fa986e8,
+medeforne.fr,fail,,,,"Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://medeforne.fr/
+Call log:
+  - navigating to ""https://medeforne.fr/"", waiting until ""load""
+"
+canon-its.co.jp,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://canon-its.co.jp/"", waiting until ""load""
+"
+mitsubishi-motors.com.ar,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mitsubishi-motors.com.ar/"", waiting until ""load""
+"
+isover.be,fail,,,,No logo found
+lamborghini-rotterdam.nl,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://lamborghini-rotterdam.nl/"", waiting until ""load""
+"
+spitexrl.ch,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://spitexrl.ch/
+Call log:
+  - navigating to ""https://spitexrl.ch/"", waiting until ""load""
+"
+holidayland-bruchkoebel.de,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://holidayland-bruchkoebel.de/
+Call log:
+  - navigating to ""https://holidayland-bruchkoebel.de/"", waiting until ""load""
+"
+mtn.ng,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://mtn.ng/"", waiting until ""load""
+"
+toyotacommonwealth.com,fail,,,,"Page.goto: net::ERR_CERT_DATE_INVALID at https://toyotacommonwealth.com/
+Call log:
+  - navigating to ""https://toyotacommonwealth.com/"", waiting until ""load""
+"
+amway.com.do,fail,,,,Image fetch failed
+uxbistart.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://uxbistart.com/"", waiting until ""load""
+"
+brother.cn,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://brother.cn/"", waiting until ""load""
+"
+trulynolenbarueri.com.br,success,img-or-favicon,trulynolenbarueri.com.br_c67250a2e7cd72cad8261a594739fce4.png,c67250a2e7cd72cad8261a594739fce4,
+wuerth.my,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://wuerth.my/
+Call log:
+  - navigating to ""https://wuerth.my/"", waiting until ""load""
+"
+sonepar.co,fail,,,,No logo found
+kynixsemiconductor.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://kynixsemiconductor.com/"", waiting until ""load""
+"
+dhirajsonsonline.com,fail,,,,No logo found
+digi-intl.co.jp,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://digi-intl.co.jp/"", waiting until ""load""
+"
+norauto-empleo.es,fail,,,,No logo found
+papajohns.com.tr,fail,,,,No logo found
+aonassurances.com,fail,,,,"Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to ""https://aonassurances.com/"", waiting until ""load""
+"
+duracleanservices.net,fail,,,,No logo found
+papajohns.com.pk,fail,,,,No logo found
+toyota-lyonsud.fr,fail,,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://toyota-lyonsud.fr/
+Call log:
+  - navigating to ""https://toyota-lyonsud.fr/"", waiting until ""load""
+"
+shimadzumea.com,fail,,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://shimadzumea.com/
+Call log:
+  - navigating to ""https://shimadzumea.com/"", waiting until ""load""
+"
+toyota.com.np,success,inline-svg,toyota.com.np_c467b97f0af9857f3c0f745d1c64452b.svg,c467b97f0af9857f3c0f745d1c64452b,
+ampersand-world.com,fail,,,,Image fetch failed
+advantisengineering.com,success,img-or-favicon,advantisengineering.com_c3715ce8faabdc4e00b3ab84d39f2011.png,c3715ce8faabdc4e00b3ab84d39f2011,
+zkteco-ao.com,fail,,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://zkteco-ao.com/
+Call log:
+  - navigating to ""https://zkteco-ao.com/"", waiting until ""load""
+"

@@ -83,14 +83,14 @@ def test_sites_from_failed_csv():
             })
             time.sleep(1)
 
-    # Write diagnostics CSV
+   
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as cf:
         writer = csv.DictWriter(cf, fieldnames=["domain", "reason", "details", "browser_accessible"])
         writer.writeheader()
         for row in results:
             writer.writerow(row)
     
-    # Statistici rapide la final
+    
     total = len(results)
     n_browser_yes = sum(r['browser_accessible'] == 'yes' for r in results)
     n_browser_maybe = sum(r['browser_accessible'] == 'maybe' for r in results)
@@ -103,3 +103,7 @@ def test_sites_from_failed_csv():
 
 if __name__ == "__main__":
     test_sites_from_failed_csv()
+
+
+# Script for diagnostics and debugging:
+#Helps understand why logo extraction failed for certain sites. It logs the reason for each domain so you can analyze and fix issues more effectively.

@@ -250,3 +250,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    #Main script used to download logos
+# Core logic that processes domains and extracts logos using multiple strategies

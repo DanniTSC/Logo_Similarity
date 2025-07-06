@@ -23,3 +23,6 @@ def create_debug_subset():
 
 if __name__ == "__main__":
     create_debug_subset()
+
+    #Script to create subsets from the large Parquet file
+# Used to split the full dataset into smaller, manageable batches (CSV format)

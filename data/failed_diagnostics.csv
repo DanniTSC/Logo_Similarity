@@ -1,0 +1,424 @@
+domain,reason,details,browser_accessible
+stanbicbank.co.zw,timeout,"HTTPSConnectionPool(host='stanbicbank.co.zw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651CF63190>, 'Connection to stanbicbank.co.zw timed out. (connect timeout=8)'))",no
+astrazeneca.ua,other-http,HTTP 200,maybe
+toyota-buchreiter-eisenstadt.at,dns,"HTTPSConnectionPool(host='toyota-buchreiter-eisenstadt.at', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1AAD10>: Failed to resolve 'toyota-buchreiter-eisenstadt.at' ([Errno 11001] getaddrinfo failed)""))",no
+tupperware.at,other-http,HTTP 503,maybe
+ymcasteuben.org,ssl,"HTTPSConnectionPool(host='ymcasteuben.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+cafelasmargaritas.es,other-http,HTTP 503,maybe
+affidea.ba,other-http,HTTP 200,maybe
+unicharm.com.br,dns,"HTTPSConnectionPool(host='unicharm.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1B9810>: Failed to resolve 'unicharm.com.br' ([Errno 11001] getaddrinfo failed)""))",no
+esseskincare.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+avoncameroun.com,ssl,"HTTPSConnectionPool(host='avoncameroun.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+mazdaofamarillo.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+rheine.schule,other-http,HTTP 200,maybe
+worldvision.ca,not-found,HTTP 404,yes
+daikin.ge,connection-error,"HTTPSConnectionPool(host='daikin.ge', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002651D1C9890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",no
+crocs.co.id,other-http,HTTP 406,maybe
+daikin.com.sg,dns,"HTTPSConnectionPool(host='daikin.com.sg', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1BA7D0>: Failed to resolve 'daikin.com.sg' ([Errno 11001] getaddrinfo failed)""))",no
+renaultmerida.com.mx,blocked-bot-waf,Cloudflare 403,yes
+allianz-kuhlemann.de,other-http,HTTP 200,maybe
+veolia.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+intersport-rent.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+allianz-rose.info,other-http,HTTP 200,maybe
+azets.ie,other-http,HTTP 200,maybe
+daikin-china.com.cn,timeout,"HTTPSConnectionPool(host='daikin-china.com.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1B3090>, 'Connection to daikin-china.com.cn timed out. (connect timeout=8)'))",no
+scte-prod.herokuapp.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+saint-gobain.ru,blocked-bot-waf,HTTP 403 Forbidden,yes
+ikea.es,blocked-bot-waf,Cloudflare 403,yes
+metlife.co.kr,dns,"HTTPSConnectionPool(host='metlife.co.kr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1B33D0>: Failed to resolve 'metlife.co.kr' ([Errno 11001] getaddrinfo failed)""))",no
+toyotafocsani.ro,unexpected-html,200 OK but suspiciously short (75 bytes),maybe
+renaultsancosme.com.mx,blocked-bot-waf,Cloudflare 403,yes
+mazdalakeland.com,ssl,"HTTPSConnectionPool(host='mazdalakeland.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdalakeland.com'. (_ssl.c:992)"")))",no
+renaulttlalnepantla.com.mx,blocked-bot-waf,Cloudflare 403,yes
+aviapolska.pl,other-http,HTTP 200,maybe
+allianz-assistance.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+decathlon.ch,blocked-bot-waf,HTTP 403 Forbidden,yes
+cdlbarreiras.com.br,other-http,HTTP 200,maybe
+mcdonalds.co.za,timeout,"HTTPSConnectionPool(host='mcdonalds.co.za', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1BA110>, 'Connection to mcdonalds.co.za timed out. (connect timeout=8)'))",no
+nikonschool.de,other-http,HTTP 200,maybe
+toyotabacau.ro,unexpected-html,200 OK but suspiciously short (73 bytes),maybe
+decathlon.hu,blocked-bot-waf,HTTP 403 Forbidden,yes
+isover.se,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaoforange.com,ssl,"HTTPSConnectionPool(host='mazdaoforange.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+kiamarin.com,other-http,HTTP 405,maybe
+toyota-annecy.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+pingusenglish.co.id,other-http,HTTP 200,maybe
+veka.pt,ssl,"HTTPSConnectionPool(host='veka.pt', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'veka.pt'. (_ssl.c:992)"")))",no
+stanbicbank.co.bw,timeout,"HTTPSConnectionPool(host='stanbicbank.co.bw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1CA390>, 'Connection to stanbicbank.co.bw timed out. (connect timeout=8)'))",no
+toysrus.com.ph,other-http,HTTP 200,maybe
+renaultcampeche.mx,blocked-bot-waf,Cloudflare 403,yes
+kiaofdaphne.com,other-http,HTTP 405,maybe
+isover.ua,blocked-bot-waf,HTTP 403 Forbidden,yes
+toyota-rillieux.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+bakertilly.sl,dns,"HTTPSConnectionPool(host='bakertilly.sl', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1CC810>: Failed to resolve 'bakertilly.sl' ([Errno 11002] getaddrinfo failed)""))",no
+tupperware.es,other-http,HTTP 503,maybe
+sitechsolutions.com,timeout,"HTTPSConnectionPool(host='sitechsolutions.com', port=443): Read timed out. (read timeout=8)",no
+toysrus.fr,other-http,HTTP 200,maybe
+mazda-krakow-kazokuluzar.pl,blocked-bot-waf,robots noindex found,yes
+astrazeneca.hu,other-http,HTTP 200,maybe
+toyotaortakoy.com.tr,dns,"HTTPSConnectionPool(host='toyotaortakoy.com.tr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1CF3D0>: Failed to resolve 'toyotaortakoy.com.tr' ([Errno 11001] getaddrinfo failed)""))",no
+acuraofwestchester.com,blocked-bot-waf,Cloudflare 403,yes
+hyundaiblacktown.com.au,other-http,HTTP 200,maybe
+mercyships.dk,other-http,HTTP 200,maybe
+plameco.nl,other-http,HTTP 200,maybe
+allianz.com.gr,dns,"HTTPSConnectionPool(host='allianz.com.gr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1D2190>: Failed to resolve 'allianz.com.gr' ([Errno 11001] getaddrinfo failed)""))",no
+bakertillymapema.se,ssl,"HTTPSConnectionPool(host='bakertillymapema.se', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bakertillymapema.se'. (_ssl.c:992)"")))",no
+mazdacity.com,other-http,HTTP 405,maybe
+kia-kmv.ru,ssl,"HTTPSConnectionPool(host='kia-kmv.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kia-kmv.ru'. (_ssl.c:992)"")))",no
+intersport.si,timeout,"HTTPSConnectionPool(host='intersport.si', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1DF710>, 'Connection to intersport.si timed out. (connect timeout=8)'))",no
+tevamexico.com.mx,blocked-bot-waf,HTTP 403 Forbidden,yes
+allianz-genc.de,other-http,HTTP 200,maybe
+suttontools.co.nz,timeout,"HTTPSConnectionPool(host='suttontools.co.nz', port=443): Read timed out. (read timeout=8)",no
+daikin.com.mm,ssl,"HTTPSConnectionPool(host='daikin.com.mm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+mazdaofspartanburg.com,ssl,"HTTPSConnectionPool(host='mazdaofspartanburg.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdaofspartanburg.com'. (_ssl.c:992)"")))",no
+hyundaichullora.com.au,other-http,HTTP 200,maybe
+mazdafwb.com,blocked-bot-waf,Cloudflare 403,yes
+saint-gobain-glass.es,blocked-bot-waf,HTTP 403 Forbidden,yes
+reedglobal.bg,ssl,"HTTPSConnectionPool(host='reedglobal.bg', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+orange-bissau.com,connection-error,"HTTPSConnectionPool(host='orange-bissau.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002651D1CE210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",no
+medef-somme.fr,dns,"HTTPSConnectionPool(host='medef-somme.fr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1F19D0>: Failed to resolve 'medef-somme.fr' ([Errno 11001] getaddrinfo failed)""))",no
+saint-gobain-solutions.nl,unknown,Exceeded 30 redirects.,maybe
+soneparfrance.fr,dns,"HTTPSConnectionPool(host='soneparfrance.fr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1B2310>: Failed to resolve 'soneparfrance.fr' ([Errno 11001] getaddrinfo failed)""))",no
+savethechildren.org.za,other-http,HTTP 200,maybe
+vans.com.ar,ssl,"HTTPSConnectionPool(host='vans.com.ar', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+mazdaofpottstown.com,ssl,"HTTPSConnectionPool(host='mazdaofpottstown.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdaofpottstown.com'. (_ssl.c:992)"")))",no
+isover.com.br,blocked-bot-waf,HTTP 403 Forbidden,yes
+alcirclebiz.com,timeout,"HTTPConnectionPool(host='www.alcirclebiz.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002651D1D9490>, 'Connection to www.alcirclebiz.com timed out. (connect timeout=8)'))",no
+renault.pe,dns,"HTTPSConnectionPool(host='renault.pe', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D23E350>: Failed to resolve 'renault.pe' ([Errno 11002] getaddrinfo failed)""))",no
+allianz.com.ar,timeout,"HTTPSConnectionPool(host='allianz.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1C9E10>, 'Connection to allianz.com.ar timed out. (connect timeout=8)'))",no
+kiaofabilene.com,other-http,HTTP 405,maybe
+kumonshuppan.com,other-http,HTTP 200,maybe
+trulynolenalagoas.com.br,other-http,HTTP 200,maybe
+renaultchiapas.com.mx,blocked-bot-waf,Cloudflare 403,yes
+bakertillylb.com,ssl,"HTTPSConnectionPool(host='bakertillylb.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bakertillylb.com'. (_ssl.c:992)"")))",no
+kiaofduluth.com,ssl,"HTTPSConnectionPool(host='kiaofduluth.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kiaofduluth.com'. (_ssl.c:992)"")))",no
+plameco.be,other-http,HTTP 200,maybe
+hahn-kolb.mx,timeout,"HTTPSConnectionPool(host='hahn-kolb.mx', port=443): Read timed out. (read timeout=8)",no
+modshair-mannheim.de,ssl,"HTTPSConnectionPool(host='modshair-mannheim.de', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'modshair-mannheim.de'. (_ssl.c:992)"")))",no
+decathlon.ro,blocked-bot-waf,HTTP 403 Forbidden,yes
+decathlon.pl,blocked-bot-waf,HTTP 403 Forbidden,yes
+lindeoilandgas.com,ssl,"HTTPSConnectionPool(host='lindeoilandgas.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'lindeoilandgas.com'. (_ssl.c:992)"")))",no
+wurthindustry.ca,dns,"HTTPSConnectionPool(host='wurthindustry.ca', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1D98D0>: Failed to resolve 'wurthindustry.ca' ([Errno 11001] getaddrinfo failed)""))",no
+mazda112.com,other-http,HTTP 405,maybe
+pepsico.com.tr,blocked-bot-waf,robots noindex found,yes
+mtn.co.rw,ssl,"HTTPSConnectionPool(host='mtn.co.rw', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+allianz-peev.de,other-http,HTTP 200,maybe
+mazdaofescondido.com,blocked-bot-waf,Cloudflare 403,yes
+tbwa.co.nz,other-http,HTTP 200,maybe
+moore.es,other-http,HTTP 200,maybe
+miniso-au.com,other-http,HTTP 200,maybe
+renaultcancun.com.mx,blocked-bot-waf,Cloudflare 403,yes
+renaultinterlomas.com,blocked-bot-waf,Cloudflare 403,yes
+mazdaofwestridge.com,blocked-bot-waf,Cloudflare 403,yes
+renaultcoatzacoalcos.com.mx,blocked-bot-waf,Cloudflare 403,yes
+shimadzu.com.ph,dns,"HTTPSConnectionPool(host='shimadzu.com.ph', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1D8C90>: Failed to resolve 'shimadzu.com.ph' ([Errno 11001] getaddrinfo failed)""))",no
+mazda.com.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofnorthmiami.com,blocked-bot-waf,Cloudflare 403,yes
+canon.cl,dns,"HTTPSConnectionPool(host='canon.cl', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1DF350>: Failed to resolve 'canon.cl' ([Errno 11001] getaddrinfo failed)""))",no
+truckcityford.com,other-http,HTTP 405,maybe
+bakertilly.com.cy,dns,"HTTPSConnectionPool(host='bakertillysee.com%5c', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1B2A10>: Failed to resolve 'bakertillysee.com%5c' ([Errno 11001] getaddrinfo failed)""))",no
+mazdaofchicagoland.com,blocked-bot-waf,Cloudflare 403,yes
+mazda-warszawa-auto2000.pl,blocked-bot-waf,robots noindex found,yes
+wurth-int.com,blocked-bot-waf,robots noindex found,yes
+allianz-handwerker.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+mercyships.de,other-http,HTTP 200,maybe
+daikinmalaysia.com,other-http,HTTP 200,maybe
+cfmotoqueretaro.com,ssl,"HTTPSConnectionPool(host='www.rinconlatinorestaurante.com', port=443): Max retries exceeded with url: /menu/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+renaultamericas.com.mx,blocked-bot-waf,Cloudflare 403,yes
+kesz.rs,dns,"HTTPConnectionPool(host='www.kesz.rs%5c', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPConnection object at 0x000002651D1DC350>: Failed to resolve 'www.kesz.rs%5c' ([Errno 11001] getaddrinfo failed)""))",no
+renault-materom.ro,other-http,HTTP 200,maybe
+kiaofpa.com,blocked-bot-waf,Cloudflare 403,yes
+mercyships.fr,other-http,HTTP 200,maybe
+renault.com.my,timeout,"HTTPSConnectionPool(host='renault.com.my', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1D9290>, 'Connection to renault.com.my timed out. (connect timeout=8)'))",no
+bakertilly.mt,other-http,HTTP 200,maybe
+repsol.com.mx,other-http,HTTP 401,maybe
+printsasia.com,not-found,HTTP 404,yes
+shimadzu-rika.co.jp,dns,"HTTPSConnectionPool(host='shimadzu-rika.co.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2410D0>: Failed to resolve 'shimadzu-rika.co.jp' ([Errno 11001] getaddrinfo failed)""))",no
+manpowergroup.ca,timeout,"HTTPSConnectionPool(host='manpowergroup.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D2427D0>, 'Connection to manpowergroup.ca timed out. (connect timeout=8)'))",no
+chicco.com.tw,dns,"HTTPSConnectionPool(host='chicco.com.tw', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1CEF90>: Failed to resolve 'chicco.com.tw' ([Errno 11001] getaddrinfo failed)""))",no
+remax-buchholz.de,other-http,HTTP 200,maybe
+cuponesybeneficios.com.co,other-http,HTTP 200,maybe
+astrazeneca.no,other-http,HTTP 200,maybe
+orange.co.bw,timeout,"HTTPSConnectionPool(host='orange.co.bw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D2436D0>, 'Connection to orange.co.bw timed out. (connect timeout=8)'))",no
+isover.it,blocked-bot-waf,HTTP 403 Forbidden,yes
+hondaheritagecenter.com,ssl,"HTTPSConnectionPool(host='hondaheritagecenter.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+mazdacorpuschristi.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+allianz-spm.fr,dns,"HTTPSConnectionPool(host='allianz-spm.fr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2416D0>: Failed to resolve 'allianz-spm.fr' ([Errno 11001] getaddrinfo failed)""))",no
+mazdaoforlandpark.com,blocked-bot-waf,Cloudflare 403,yes
+renaultpuertovallarta.com.mx,blocked-bot-waf,Cloudflare 403,yes
+melgarcases.com,other-http,HTTP 200,maybe
+kiaofverobeach.com,ssl,"HTTPSConnectionPool(host='kiaofverobeach.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:992)')))",no
+carlsjr.co.nz,blocked-bot-waf,HTTP 403 Forbidden,yes
+howdengroupholdings.com,blocked-bot-waf,Cloudflare 403,yes
+kiavacaville.com,ssl,"HTTPSConnectionPool(host='kiavacaville.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kiavacaville.com'. (_ssl.c:992)"")))",no
+captrain.pl,timeout,"HTTPSConnectionPool(host='captrain.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1B8C50>, 'Connection to captrain.pl timed out. (connect timeout=8)'))",no
+kiajc.com,ssl,"HTTPSConnectionPool(host='kiajc.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kiajc.com'. (_ssl.c:992)"")))",no
+kiaofstcatharines.com,blocked-bot-waf,Cloudflare 403,yes
+toyotasud.ro,other-http,HTTP 200,maybe
+allianz.ua,blocked-bot-waf,HTTP 403 Forbidden,yes
+freseniuskidneycare.cn,dns,"HTTPSConnectionPool(host='freseniuskidneycare.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1CE6D0>: Failed to resolve 'freseniuskidneycare.cn' ([Errno 11001] getaddrinfo failed)""))",no
+mitsubishielectric.com.sg,timeout,"HTTPSConnectionPool(host='mitsubishielectric.com.sg', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1DE3D0>, 'Connection to mitsubishielectric.com.sg timed out. (connect timeout=8)'))",no
+savethechildren.nl,blocked-bot-waf,HTTP 403 Forbidden,yes
+sanlorenzo.com.pe,timeout,"HTTPSConnectionPool(host='sanlorenzo.com.pe', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1DE7D0>, 'Connection to sanlorenzo.com.pe timed out. (connect timeout=8)'))",no
+kiamotors.com.kh,dns,"HTTPSConnectionPool(host='kiamotors.com.kh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1DAE10>: Failed to resolve 'kiamotors.com.kh' ([Errno 11002] getaddrinfo failed)""))",no
+vectorinfotech.my,other-http,HTTP 200,maybe
+isuzu.com,ssl,"HTTPSConnectionPool(host='isuzu.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+pefc.es,other-http,HTTP 200,maybe
+decathlon.cz,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofportcharlotte.com,blocked-bot-waf,Cloudflare 403,yes
+mazdaofcolumbia.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+kiaofoldsaybrook.com,blocked-bot-waf,Cloudflare 403,yes
+duracell.in,ssl,"HTTPSConnectionPool(host='duracell.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+aad-insurance.com,timeout,"HTTPSConnectionPool(host='aad-insurance.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D241C90>, 'Connection to aad-insurance.com timed out. (connect timeout=8)'))",no
+sonepar.pt,ssl,"HTTPSConnectionPool(host='sonepar.pt', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+lunarclient.com,other-http,HTTP 200,maybe
+allianzportugal.pt,dns,"HTTPSConnectionPool(host='allianzportugal.pt', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D232BD0>: Failed to resolve 'allianzportugal.pt' ([Errno 11001] getaddrinfo failed)""))",no
+mazdaofsouthcharlotte.com,other-http,HTTP 405,maybe
+rotaryclubmedellin.org,timeout,"HTTPSConnectionPool(host='rotaryclubmedellin.org', port=443): Read timed out. (read timeout=8)",no
+synergie.es,other-http,HTTP 200,maybe
+duracell.com.tr,ssl,"HTTPSConnectionPool(host='duracell.com.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+saint-gobain.com.co,blocked-bot-waf,HTTP 403 Forbidden,yes
+affresco-decor.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+starkey.co.uk,ssl,"HTTPSConnectionPool(host='starkey.co.uk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+risogallo.it,ssl,"HTTPSConnectionPool(host='risogallo.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:992)')))",no
+subway.com.tw,other-http,HTTP 200,maybe
+trulynolengoias.com.br,other-http,HTTP 200,maybe
+wuerth.co.th,connection-error,"HTTPSConnectionPool(host='wuerth.co.th', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002651D1D2910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",no
+kiaofwestchester.com,other-http,HTTP 405,maybe
+mcdonalds.com.jo,timeout,"HTTPSConnectionPool(host='mcdonalds.com.jo', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D241450>, 'Connection to mcdonalds.com.jo timed out. (connect timeout=8)'))",no
+mercyships.ch,other-http,HTTP 200,maybe
+altenromania.ro,ssl,"HTTPSConnectionPool(host='altenromania.ro', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+mercyships.org.au,blocked-bot-waf,Cloudflare 403,yes
+astrazeneca.dk,other-http,HTTP 200,maybe
+toyota-corbeil.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+saint-gobain.ar,blocked-bot-waf,HTTP 403 Forbidden,yes
+adra.org.au,blocked-bot-waf,Cloudflare 403,yes
+rexel.se,other-http,HTTP 200,maybe
+allianz.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+worldvision.org.uk,ssl,"HTTPSConnectionPool(host='worldvision.org.uk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+isover.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+sonepar.com.sg,dns,"HTTPSConnectionPool(host='sonepar.com.sg', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D252F90>: Failed to resolve 'sonepar.com.sg' ([Errno 11001] getaddrinfo failed)""))",no
+sekulin-allianz.de,other-http,HTTP 200,maybe
+toyota-montluel.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+dci.co.th,dns,"HTTPSConnectionPool(host='dci.co.th', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2416D0>: Failed to resolve 'dci.co.th' ([Errno 11001] getaddrinfo failed)""))",no
+goliathgames.es,other-http,HTTP 200,maybe
+fmc-symposium.cz,connection-error,"HTTPSConnectionPool(host='fmc-symposium.cz', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002651D242790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",no
+nissanofgardencity.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazda.com.kh,dns,"HTTPSConnectionPool(host='mazda.com.kh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D261B10>: Failed to resolve 'mazda.com.kh' ([Errno 11002] getaddrinfo failed)""))",no
+toyota-chartres.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+avis-taiwan.com,connection-error,"('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",no
+metlife.com.uy,dns,"HTTPSConnectionPool(host='metlife.com.uy', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D250710>: Failed to resolve 'metlife.com.uy' ([Errno 11001] getaddrinfo failed)""))",no
+thebodyshop.com.br,dns,"HTTPSConnectionPool(host='www.thebodyshop.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2430D0>: Failed to resolve 'www.thebodyshop.com.br' ([Errno 11001] getaddrinfo failed)""))",no
+wurth.co.ke,timeout,"HTTPSConnectionPool(host='wurth.co.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1AAC50>, 'Connection to wurth.co.ke timed out. (connect timeout=8)'))",no
+renaultmonterrey.com,blocked-bot-waf,Cloudflare 403,yes
+weidner.ca,blocked-bot-waf,Cloudflare 403,yes
+aiesec.org.es,timeout,"HTTPSConnectionPool(host='aiesec.org.es', port=443): Read timed out. (read timeout=8)",no
+trulynolenparaiba.com.br,other-http,HTTP 200,maybe
+mazdaofconshohocken.com,ssl,"HTTPSConnectionPool(host='mazdaofconshohocken.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdaofconshohocken.com'. (_ssl.c:992)"")))",no
+infiniti.com.tw,ssl,"HTTPSConnectionPool(host='infiniti.com.tw', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'infiniti.com.tw'. (_ssl.c:992)"")))",no
+extremeadventureraces.com,ssl,"HTTPSConnectionPool(host='www.runningadventureoutdoor.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+norauto.com,other-http,HTTP 200,maybe
+isover.lv,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.pk,blocked-bot-waf,robots noindex found,yes
+renault-chihuahua.com,blocked-bot-waf,Cloudflare 403,yes
+duracell.es,ssl,"HTTPSConnectionPool(host='duracell.es', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+acuraofwappingersfalls.com,blocked-bot-waf,Cloudflare 403,yes
+isover.com.ar,blocked-bot-waf,HTTP 403 Forbidden,yes
+atalian.sg,blocked-bot-waf,robots noindex found,yes
+subarumidlandodessa.com,other-http,HTTP 200,maybe
+msd-animal-health.es,ssl,"HTTPSConnectionPool(host='msd-animal-health.es', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'msd-animal-health.es'. (_ssl.c:992)"")))",no
+path-solutions.com,timeout,"HTTPSConnectionPool(host='path-solutions.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D243D90>, 'Connection to path-solutions.com timed out. (connect timeout=8)'))",no
+wwf.org.nz,blocked-bot-waf,Cloudflare 403,yes
+tupperware.com.vn,ssl,"HTTPSConnectionPool(host='tupperware.com.vn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+zkteco.com.pk,ssl,"HTTPSConnectionPool(host='zkteco.com.pk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'zkteco.com.pk'. (_ssl.c:992)"")))",no
+digilite.com.au,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofalexandria.com,other-http,HTTP 405,maybe
+aquatherm-belux.be,other-http,HTTP 200,maybe
+dmcihomes.jp,ssl,"HTTPSConnectionPool(host='dmcihomes.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:992)')))",no
+aeccglobal.co.th,other-http,HTTP 200,maybe
+kiamotors.com.co,unexpected-html,200 OK but suspiciously short (250 bytes),maybe
+renaultpatriotismo.com.mx,blocked-bot-waf,Cloudflare 403,yes
+manpower.co.za,blocked-bot-waf,Cloudflare 403,yes
+allianz-sebastiankoch.de,other-http,HTTP 200,maybe
+trulynolencampogrande.com.br,other-http,HTTP 200,maybe
+aamcogreensburgpa.com,timeout,"HTTPSConnectionPool(host='aamcogreensburgpa.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1F0090>, 'Connection to aamcogreensburgpa.com timed out. (connect timeout=8)'))",no
+pkfcemac.com,other-http,HTTP 200,maybe
+orbico.com.mk,other-http,HTTP 200,maybe
+lghealthjobs.org,dns,"HTTPSConnectionPool(host='lghealthjobs.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D243090>: Failed to resolve 'lghealthjobs.org' ([Errno 11002] getaddrinfo failed)""))",no
+renaulttepic.mx,blocked-bot-waf,Cloudflare 403,yes
+einhell.pl,other-http,HTTP 200,maybe
+duracell.pl,ssl,"HTTPSConnectionPool(host='duracell.pl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+allianz-reiseschutz.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+rinnai.com.tw,dns,"HTTPSConnectionPool(host='rinnai.com.tw', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1BB150>: Failed to resolve 'rinnai.com.tw' ([Errno 11001] getaddrinfo failed)""))",no
+aiesec.gr,other-http,HTTP 200,maybe
+linexranchocordova.com,not-found,HTTP 404,yes
+starbucks.com.gr,other-http,HTTP 200,maybe
+isover.fi,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofnewrochelle.com,blocked-bot-waf,Cloudflare 403,yes
+cleansui-usa.com,not-found,HTTP 404,yes
+budgetqatar.com,dns,"HTTPSConnectionPool(host='budgetqatar.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1C9BD0>: Failed to resolve 'budgetqatar.com' ([Errno 11001] getaddrinfo failed)""))",no
+svnnc.com,timeout,"HTTPSConnectionPool(host='svnnc.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1B3150>, 'Connection to svnnc.com timed out. (connect timeout=8)'))",no
+chicco.com.tr,ssl,"HTTPSConnectionPool(host='chicco.com.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+allianz.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.co,blocked-bot-waf,robots noindex found,yes
+pepsico.fr,blocked-bot-waf,robots noindex found,yes
+designpluz.com,other-http,HTTP 200,maybe
+vwswestgarth.com,ssl,"HTTPSConnectionPool(host='vwswestgarth.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:992)')))",no
+mitsubishielectricmalaysia.com,ssl,"HTTPSConnectionPool(host='mitsubishielectricmalaysia.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mitsubishielectricmalaysia.com'. (_ssl.c:992)"")))",no
+acuraofpeabody.com,other-http,HTTP 405,maybe
+eis.com.tr,other-http,HTTP 200,maybe
+starkey.com.br,ssl,"HTTPSConnectionPool(host='starkey.com.br', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+siiora.org,other-http,HTTP 200,maybe
+mazdaofwooster.com,other-http,HTTP 405,maybe
+medef-ardennes.com,ssl,"HTTPSConnectionPool(host='medef-ardennes.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+intersport.nl,other-http,HTTP 200,maybe
+cfmotoindia.com,ssl,"HTTPSConnectionPool(host='cfmotoindia.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+cdlvitoria.com.br,other-http,HTTP 200,maybe
+hsbcsaudi.com,ssl,"HTTPSConnectionPool(host='hsbcsaudi.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hsbcsaudi.com'. (_ssl.c:992)"")))",no
+countryroadsford.net,other-http,HTTP 405,maybe
+shimadzu-techno.co.jp,dns,"HTTPSConnectionPool(host='shimadzu-techno.co.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D260D10>: Failed to resolve 'shimadzu-techno.co.jp' ([Errno 11001] getaddrinfo failed)""))",no
+hyundaiofchatham.ca,timeout,"HTTPSConnectionPool(host='hyundaiofchatham.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D248DD0>, 'Connection to hyundaiofchatham.ca timed out. (connect timeout=8)'))",no
+toyota-niederberger.at,blocked-bot-waf,robots noindex found,yes
+chubblifefund.com.vn,ssl,"HTTPSConnectionPool(host='chubblifefund.com.vn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+crocs.com.ec,timeout,"HTTPSConnectionPool(host='crocs.com.ec', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D253AD0>, 'Connection to crocs.com.ec timed out. (connect timeout=8)'))",no
+astrazeneca.com.tr,other-http,HTTP 200,maybe
+svndesertcommercial.com,timeout,"HTTPSConnectionPool(host='svndesertcommercial.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1D8D50>, 'Connection to svndesertcommercial.com timed out. (connect timeout=8)'))",no
+deswam.in,dns,"HTTPSConnectionPool(host='deswam.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1D3C90>: Failed to resolve 'deswam.in' ([Errno 11001] getaddrinfo failed)""))",no
+toyota-paris5.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+toysrus.com.sa,ssl,"HTTPSConnectionPool(host='toysrus.com.sa', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'toysrus.com.sa'. (_ssl.c:992)"")))",no
+toyotabatangas.com.ph,other-http,HTTP 200,maybe
+plameco-huizen.nl,ssl,"HTTPSConnectionPool(host='plameco-huizen.nl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'plameco-huizen.nl'. (_ssl.c:992)"")))",no
+astrazeneca.ca,other-http,HTTP 200,maybe
+mazdaofbedford.com,blocked-bot-waf,Cloudflare 403,yes
+habitatbroward.org,other-http,HTTP 503,maybe
+aon.lt,other-http,HTTP 200,maybe
+kiaofmurfreesboro.com,other-http,HTTP 405,maybe
+myplumberca.com,ssl,"HTTPSConnectionPool(host='myplumberca.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+amnesty.org.ph,dns,"HTTPSConnectionPool(host='amnesty.org.ph', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2781D0>: Failed to resolve 'amnesty.org.ph' ([Errno 11001] getaddrinfo failed)""))",no
+toyota-givors.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+franzcollection.com,ssl,"HTTPSConnectionPool(host='franzcollection.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+bigfootdigital.co.uk,other-http,HTTP 200,maybe
+kiacoldlake.com,timeout,"HTTPSConnectionPool(host='kiacoldlake.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1BA190>, 'Connection to kiacoldlake.com timed out. (connect timeout=8)'))",no
+kiaofgrandblanc.com,ssl,"HTTPSConnectionPool(host='kiaofgrandblanc.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kiaofgrandblanc.com'. (_ssl.c:992)"")))",no
+azetsconsulting.no,other-http,HTTP 200,maybe
+aireserv.ca,blocked-bot-waf,Cloudflare 403,yes
+isover.co.kr,blocked-bot-waf,HTTP 403 Forbidden,yes
+invisalign.co.kr,other-http,HTTP 200,maybe
+biolchim.com.br,ssl,"HTTPSConnectionPool(host='biolchim.com.br', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+toysrus.de,other-http,HTTP 200,maybe
+pussyspace.net,other-http,HTTP 200,maybe
+aon.lv,other-http,HTTP 200,maybe
+kiaofwestburlington.com,blocked-bot-waf,Cloudflare 403,yes
+tbwazim.co.zw,other-http,HTTP 200,maybe
+duracell.it,ssl,"HTTPSConnectionPool(host='duracell.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+ebay.com.tw,timeout,"HTTPSConnectionPool(host='ebay.com.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D2495D0>, 'Connection to ebay.com.tw timed out. (connect timeout=8)'))",no
+vedanta-zincinternational.com,ssl,"HTTPSConnectionPool(host='vedanta-zincinternational.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+scoutaerialafrica.com,other-http,HTTP 200,maybe
+intersport.hr,timeout,"HTTPSConnectionPool(host='intersport.hr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D279D90>, 'Connection to intersport.hr timed out. (connect timeout=8)'))",no
+aspenpharma.es,ssl,"HTTPSConnectionPool(host='aspenpharma.es', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aspenpharma.es'. (_ssl.c:992)"")))",no
+tbwa.com.hk,other-http,HTTP 200,maybe
+wurthcanarias.es,dns,"HTTPSConnectionPool(host='wurthcanarias.es', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D27B290>: Failed to resolve 'wurthcanarias.es' ([Errno 11001] getaddrinfo failed)""))",no
+kiaoflumberton.com,other-http,HTTP 405,maybe
+trulynolenrecife.com.br,other-http,HTTP 200,maybe
+unicharm.co.in,timeout,"HTTPSConnectionPool(host='unicharm.co.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D253DD0>, 'Connection to unicharm.co.in timed out. (connect timeout=8)'))",no
+pepsico.rs,blocked-bot-waf,robots noindex found,yes
+worldvisionamericalatina.org,ssl,"HTTPSConnectionPool(host='worldvisionamericalatina.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+trulynolenpiaui.com.br,other-http,HTTP 200,maybe
+travelocarbooking.com,dns,"HTTPSConnectionPool(host='travelocarbooking.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D24B010>: Failed to resolve 'travelocarbooking.com' ([Errno 11002] getaddrinfo failed)""))",no
+mazdaofmilford.com,other-http,HTTP 405,maybe
+toyotapasongtamo.com,ssl,"HTTPSConnectionPool(host='toyotapasongtamo.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+plameco.at,other-http,HTTP 200,maybe
+rubiomonocoat.com.pl,ssl,"HTTPSConnectionPool(host='rubiomonocoat.com.pl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rubiomonocoat.com.pl'. (_ssl.c:992)"")))",no
+isover.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+ringcontainers.co.uk,other-http,HTTP 200,maybe
+renaultpatria.com.mx,blocked-bot-waf,Cloudflare 403,yes
+bluecardagency.ru,other-http,HTTP 200,maybe
+pepsico.es,blocked-bot-waf,robots noindex found,yes
+mazdademagog.com,other-http,HTTP 200,maybe
+kiaofbillings.com,other-http,HTTP 405,maybe
+reedglobal.com.tr,other-http,HTTP 200,maybe
+nissanofthebronx.com,blocked-bot-waf,Cloudflare 403,yes
+duracell.co.za,ssl,"HTTPSConnectionPool(host='duracell.co.za', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+crif.sk,timeout,"HTTPSConnectionPool(host='crif.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D24BE50>, 'Connection to crif.sk timed out. (connect timeout=8)'))",no
+santanderuniversidades.com.mx,timeout,"HTTPSConnectionPool(host='santanderuniversidades.com.mx', port=443): Read timed out. (read timeout=8)",no
+hansa-flex.be,ssl,"HTTPSConnectionPool(host='hansa-flex.be', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hansa-flex.be'. (_ssl.c:992)"")))",no
+pepsico.co.it,blocked-bot-waf,robots noindex found,yes
+sonepar.pe,dns,"HTTPSConnectionPool(host='sonepar.pe', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1DA7D0>: Failed to resolve 'sonepar.pe' ([Errno 11001] getaddrinfo failed)""))",no
+mazdadesherbrooke.com,other-http,HTTP 200,maybe
+kiaofcoatesville.com,other-http,HTTP 405,maybe
+astrazeneca.pt,other-http,HTTP 200,maybe
+jdm.com.pe,other-http,HTTP 200,maybe
+stanbicbank.co.ke,ssl,"HTTPSConnectionPool(host='stanbicbank.co.ke', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+wurth.es,other-http,HTTP 405,maybe
+mitsubishielevator.co.kr,dns,"HTTPSConnectionPool(host='mitsubishielevator.co.kr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D1F1BD0>: Failed to resolve 'mitsubishielevator.co.kr' ([Errno 11001] getaddrinfo failed)""))",no
+mazdaoflodi.com,other-http,HTTP 405,maybe
+kiaofmuncie.com,other-http,HTTP 405,maybe
+amway.ca,other-http,HTTP 200,maybe
+sonepar.hu,ssl,"HTTPSConnectionPool(host='sonepar.hu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:992)')))",no
+avonworldwide.com,other-http,HTTP 200,maybe
+starkey.com.co,ssl,"HTTPSConnectionPool(host='starkey.com.co', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+renaultdelsol.com.mx,blocked-bot-waf,Cloudflare 403,yes
+adra.ca,other-http,HTTP 200,maybe
+pamline.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+veolia.co.uk,blocked-bot-waf,Cloudflare 403,yes
+pepsico.ua,blocked-bot-waf,robots noindex found,yes
+solatube.no,other-http,HTTP 200,maybe
+tapflo.by,dns,"HTTPSConnectionPool(host='tapflo.by', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D27B7D0>: Failed to resolve 'tapflo.by' ([Errno 11001] getaddrinfo failed)""))",no
+medef-htcis.com,ssl,"HTTPSConnectionPool(host='medef-htcis.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+mitsubishielectric.com.cn,dns,"HTTPSConnectionPool(host='mitsubishielectric.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2508D0>: Failed to resolve 'mitsubishielectric.com.cn' ([Errno 11001] getaddrinfo failed)""))",no
+kiaprimavera.com,ssl,"HTTPSConnectionPool(host='kiaprimavera.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kiaprimavera.com'. (_ssl.c:992)"")))",no
+pmcorp.mx,other-http,HTTP 200,maybe
+pepsico.pt,blocked-bot-waf,robots noindex found,yes
+indianmotorcycle.com.ar,timeout,"HTTPSConnectionPool(host='indianmotorcycle.com.ar', port=443): Read timed out. (read timeout=8)",no
+manpowergroup.ch,dns,"HTTPSConnectionPool(host='manpowergroup.ch', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D241550>: Failed to resolve 'manpowergroup.ch' ([Errno 11001] getaddrinfo failed)""))",no
+microbit.nl,ssl,"HTTPSConnectionPool(host='microbit.nl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'microbit.nl'. (_ssl.c:992)"")))",no
+thegoodlobby.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+aiesec.org.rs,ssl,"HTTPSConnectionPool(host='aiesec.org.rs', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+engie.com.au,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.br,blocked-bot-waf,robots noindex found,yes
+shimadzu.com.cn,dns,"HTTPSConnectionPool(host='shimadzu.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D24B790>: Failed to resolve 'shimadzu.com.cn' ([Errno 11001] getaddrinfo failed)""))",no
+altriusconsulting.com,blocked-bot-waf,robots noindex found,yes
+shimadzu.co.kr,dns,"HTTPSConnectionPool(host='shimadzu.co.kr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D27B0D0>: Failed to resolve 'shimadzu.co.kr' ([Errno 11001] getaddrinfo failed)""))",no
+acuraoframsey.com,blocked-bot-waf,Cloudflare 403,yes
+soneparusa.com,blocked-bot-waf,robots noindex found,yes
+seiban.com,dns,"HTTPSConnectionPool(host='seiban.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D24B510>: Failed to resolve 'seiban.com' ([Errno 11001] getaddrinfo failed)""))",no
+entergynewsroom.com,ssl,"HTTPSConnectionPool(host='entergynewsroom.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+gs1tn.org,other-http,HTTP 200,maybe
+entergy-nuclear.com,other-http,HTTP 200,maybe
+mcdonalds-mcdelivery.es,blocked-bot-waf,Cloudflare 403,yes
+savethechildren.org.uk,other-http,HTTP 200,maybe
+overheaddoorsrichmond.com,redirect,HTML redirect/script,yes
+toyota-magny.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+toyotamacau.com,dns,"HTTPSConnectionPool(host='toyotamacau.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D27AED0>: Failed to resolve 'toyotamacau.com' ([Errno 11001] getaddrinfo failed)""))",no
+zenithplasticsurgery.com,redirect,HTML redirect/script,yes
+isover.at,blocked-bot-waf,HTTP 403 Forbidden,yes
+duracell.fr,ssl,"HTTPSConnectionPool(host='duracell.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+medeforne.fr,ssl,"HTTPSConnectionPool(host='medeforne.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+canon-its.co.jp,timeout,"HTTPSConnectionPool(host='canon-its.co.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D1D0890>, 'Connection to canon-its.co.jp timed out. (connect timeout=8)'))",no
+mitsubishi-motors.com.ar,timeout,"HTTPSConnectionPool(host='mitsubishi-motors.com.ar', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D263810>, 'Connection to mitsubishi-motors.com.ar timed out. (connect timeout=8)'))",no
+isover.be,blocked-bot-waf,HTTP 403 Forbidden,yes
+lamborghini-rotterdam.nl,timeout,"HTTPSConnectionPool(host='www.lamborghini-rotterdam.nl', port=443): Read timed out. (read timeout=8)",no
+spitexrl.ch,dns,"HTTPSConnectionPool(host='spitexrl.ch', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D27A450>: Failed to resolve 'spitexrl.ch' ([Errno 11001] getaddrinfo failed)""))",no
+holidayland-bruchkoebel.de,dns,"HTTPSConnectionPool(host='holidayland-bruchkoebel.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D252F10>: Failed to resolve 'holidayland-bruchkoebel.de' ([Errno 11001] getaddrinfo failed)""))",no
+mtn.ng,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+toyotacommonwealth.com,ssl,"HTTPSConnectionPool(host='toyotacommonwealth.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)')))",no
+amway.com.do,other-http,HTTP 200,maybe
+uxbistart.com,redirect,HTML redirect/script,yes
+brother.cn,timeout,"HTTPSConnectionPool(host='brother.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D242C90>, 'Connection to brother.cn timed out. (connect timeout=8)'))",no
+trulynolenbarueri.com.br,other-http,HTTP 200,maybe
+wuerth.my,dns,"HTTPSConnectionPool(host='wuerth.my', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D252490>: Failed to resolve 'wuerth.my' ([Errno 11001] getaddrinfo failed)""))",no
+sonepar.co,other-http,HTTP 500,maybe
+kynixsemiconductor.com,timeout,"HTTPSConnectionPool(host='kynixsemiconductor.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D27AFD0>, 'Connection to kynixsemiconductor.com timed out. (connect timeout=8)'))",no
+dhirajsonsonline.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+digi-intl.co.jp,ssl,"HTTPSConnectionPool(host='digi-intl.co.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:992)')))",no
+norauto-empleo.es,other-http,HTTP 200,maybe
+papajohns.com.tr,blocked-bot-waf,HTTP 403 Forbidden,yes
+aonassurances.com,timeout,"HTTPSConnectionPool(host='aonassurances.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002651D27AF10>, 'Connection to aonassurances.com timed out. (connect timeout=8)'))",no
+duracleanservices.net,not-found,HTTP 404,yes
+papajohns.com.pk,blocked-bot-waf,HTTP 403 Forbidden,yes
+toyota-lyonsud.fr,connection-error,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",no
+shimadzumea.com,ssl,"HTTPSConnectionPool(host='shimadzumea.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'shimadzumea.com'. (_ssl.c:992)"")))",no
+toyota.com.np,ssl,"HTTPSConnectionPool(host='toyota.com.np', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))",no
+ampersand-world.com,unexpected-html,200 OK but suspiciously short (105 bytes),maybe
+advantisengineering.com,other-http,HTTP 200,maybe
+zkteco-ao.com,dns,"HTTPSConnectionPool(host='zkteco-ao.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x000002651D2620D0>: Failed to resolve 'zkteco-ao.com' ([Errno 11001] getaddrinfo failed)""))",no

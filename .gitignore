@@ -83,3 +83,7 @@ Thumbs.db
 data/logos/
 data/logo_hashes.json
 batches
+data/logo_extraction_browser_accessible
+datar/esults_playwright.csv
+data/logo_extraction_browser_accessible.csv
+src/preprocess_logo.py

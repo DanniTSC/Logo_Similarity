@@ -18,3 +18,6 @@ def split_parquet_to_batches():
 
 if __name__ == "__main__":
     split_parquet_to_batches()
+
+#Script for splitting the large Parquet file:
+#Used to break the big Parquet file into smaller CSV batches, so you can process, validate, or debug the data more easily, piece by piece.

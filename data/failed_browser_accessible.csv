@@ -1,0 +1,247 @@
+domain,reason,details,browser_accessible
+astrazeneca.ua,other-http,HTTP 200,maybe
+tupperware.at,other-http,HTTP 503,maybe
+cafelasmargaritas.es,other-http,HTTP 503,maybe
+affidea.ba,other-http,HTTP 200,maybe
+esseskincare.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofamarillo.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+rheine.schule,other-http,HTTP 200,maybe
+worldvision.ca,not-found,HTTP 404,yes
+crocs.co.id,other-http,HTTP 406,maybe
+renaultmerida.com.mx,blocked-bot-waf,Cloudflare 403,yes
+allianz-kuhlemann.de,other-http,HTTP 200,maybe
+veolia.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+intersport-rent.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+allianz-rose.info,other-http,HTTP 200,maybe
+azets.ie,other-http,HTTP 200,maybe
+scte-prod.herokuapp.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+saint-gobain.ru,blocked-bot-waf,HTTP 403 Forbidden,yes
+ikea.es,blocked-bot-waf,Cloudflare 403,yes
+toyotafocsani.ro,unexpected-html,200 OK but suspiciously short (75 bytes),maybe
+renaultsancosme.com.mx,blocked-bot-waf,Cloudflare 403,yes
+renaulttlalnepantla.com.mx,blocked-bot-waf,Cloudflare 403,yes
+aviapolska.pl,other-http,HTTP 200,maybe
+allianz-assistance.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+decathlon.ch,blocked-bot-waf,HTTP 403 Forbidden,yes
+cdlbarreiras.com.br,other-http,HTTP 200,maybe
+nikonschool.de,other-http,HTTP 200,maybe
+toyotabacau.ro,unexpected-html,200 OK but suspiciously short (73 bytes),maybe
+decathlon.hu,blocked-bot-waf,HTTP 403 Forbidden,yes
+isover.se,blocked-bot-waf,HTTP 403 Forbidden,yes
+kiamarin.com,other-http,HTTP 405,maybe
+pingusenglish.co.id,other-http,HTTP 200,maybe
+toysrus.com.ph,other-http,HTTP 200,maybe
+renaultcampeche.mx,blocked-bot-waf,Cloudflare 403,yes
+kiaofdaphne.com,other-http,HTTP 405,maybe
+isover.ua,blocked-bot-waf,HTTP 403 Forbidden,yes
+tupperware.es,other-http,HTTP 503,maybe
+toysrus.fr,other-http,HTTP 200,maybe
+mazda-krakow-kazokuluzar.pl,blocked-bot-waf,robots noindex found,yes
+astrazeneca.hu,other-http,HTTP 200,maybe
+acuraofwestchester.com,blocked-bot-waf,Cloudflare 403,yes
+hyundaiblacktown.com.au,other-http,HTTP 200,maybe
+mercyships.dk,other-http,HTTP 200,maybe
+plameco.nl,other-http,HTTP 200,maybe
+mazdacity.com,other-http,HTTP 405,maybe
+tevamexico.com.mx,blocked-bot-waf,HTTP 403 Forbidden,yes
+allianz-genc.de,other-http,HTTP 200,maybe
+hyundaichullora.com.au,other-http,HTTP 200,maybe
+mazdafwb.com,blocked-bot-waf,Cloudflare 403,yes
+saint-gobain-glass.es,blocked-bot-waf,HTTP 403 Forbidden,yes
+saint-gobain-solutions.nl,unknown,Exceeded 30 redirects.,maybe
+savethechildren.org.za,other-http,HTTP 200,maybe
+isover.com.br,blocked-bot-waf,HTTP 403 Forbidden,yes
+kiaofabilene.com,other-http,HTTP 405,maybe
+kumonshuppan.com,other-http,HTTP 200,maybe
+trulynolenalagoas.com.br,other-http,HTTP 200,maybe
+renaultchiapas.com.mx,blocked-bot-waf,Cloudflare 403,yes
+plameco.be,other-http,HTTP 200,maybe
+decathlon.ro,blocked-bot-waf,HTTP 403 Forbidden,yes
+decathlon.pl,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazda112.com,other-http,HTTP 405,maybe
+pepsico.com.tr,blocked-bot-waf,robots noindex found,yes
+allianz-peev.de,other-http,HTTP 200,maybe
+mazdaofescondido.com,blocked-bot-waf,Cloudflare 403,yes
+tbwa.co.nz,other-http,HTTP 200,maybe
+moore.es,other-http,HTTP 200,maybe
+miniso-au.com,other-http,HTTP 200,maybe
+renaultcancun.com.mx,blocked-bot-waf,Cloudflare 403,yes
+renaultinterlomas.com,blocked-bot-waf,Cloudflare 403,yes
+mazdaofwestridge.com,blocked-bot-waf,Cloudflare 403,yes
+renaultcoatzacoalcos.com.mx,blocked-bot-waf,Cloudflare 403,yes
+mazda.com.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofnorthmiami.com,blocked-bot-waf,Cloudflare 403,yes
+truckcityford.com,other-http,HTTP 405,maybe
+mazdaofchicagoland.com,blocked-bot-waf,Cloudflare 403,yes
+mazda-warszawa-auto2000.pl,blocked-bot-waf,robots noindex found,yes
+wurth-int.com,blocked-bot-waf,robots noindex found,yes
+allianz-handwerker.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+mercyships.de,other-http,HTTP 200,maybe
+daikinmalaysia.com,other-http,HTTP 200,maybe
+renaultamericas.com.mx,blocked-bot-waf,Cloudflare 403,yes
+renault-materom.ro,other-http,HTTP 200,maybe
+kiaofpa.com,blocked-bot-waf,Cloudflare 403,yes
+mercyships.fr,other-http,HTTP 200,maybe
+bakertilly.mt,other-http,HTTP 200,maybe
+repsol.com.mx,other-http,HTTP 401,maybe
+printsasia.com,not-found,HTTP 404,yes
+remax-buchholz.de,other-http,HTTP 200,maybe
+cuponesybeneficios.com.co,other-http,HTTP 200,maybe
+astrazeneca.no,other-http,HTTP 200,maybe
+isover.it,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdacorpuschristi.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaoforlandpark.com,blocked-bot-waf,Cloudflare 403,yes
+renaultpuertovallarta.com.mx,blocked-bot-waf,Cloudflare 403,yes
+melgarcases.com,other-http,HTTP 200,maybe
+carlsjr.co.nz,blocked-bot-waf,HTTP 403 Forbidden,yes
+howdengroupholdings.com,blocked-bot-waf,Cloudflare 403,yes
+kiaofstcatharines.com,blocked-bot-waf,Cloudflare 403,yes
+toyotasud.ro,other-http,HTTP 200,maybe
+allianz.ua,blocked-bot-waf,HTTP 403 Forbidden,yes
+savethechildren.nl,blocked-bot-waf,HTTP 403 Forbidden,yes
+vectorinfotech.my,other-http,HTTP 200,maybe
+pefc.es,other-http,HTTP 200,maybe
+decathlon.cz,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofportcharlotte.com,blocked-bot-waf,Cloudflare 403,yes
+mazdaofcolumbia.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+kiaofoldsaybrook.com,blocked-bot-waf,Cloudflare 403,yes
+lunarclient.com,other-http,HTTP 200,maybe
+mazdaofsouthcharlotte.com,other-http,HTTP 405,maybe
+synergie.es,other-http,HTTP 200,maybe
+saint-gobain.com.co,blocked-bot-waf,HTTP 403 Forbidden,yes
+affresco-decor.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+subway.com.tw,other-http,HTTP 200,maybe
+trulynolengoias.com.br,other-http,HTTP 200,maybe
+kiaofwestchester.com,other-http,HTTP 405,maybe
+mercyships.ch,other-http,HTTP 200,maybe
+mercyships.org.au,blocked-bot-waf,Cloudflare 403,yes
+astrazeneca.dk,other-http,HTTP 200,maybe
+saint-gobain.ar,blocked-bot-waf,HTTP 403 Forbidden,yes
+adra.org.au,blocked-bot-waf,Cloudflare 403,yes
+rexel.se,other-http,HTTP 200,maybe
+allianz.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+isover.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+sekulin-allianz.de,other-http,HTTP 200,maybe
+goliathgames.es,other-http,HTTP 200,maybe
+nissanofgardencity.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+renaultmonterrey.com,blocked-bot-waf,Cloudflare 403,yes
+weidner.ca,blocked-bot-waf,Cloudflare 403,yes
+trulynolenparaiba.com.br,other-http,HTTP 200,maybe
+norauto.com,other-http,HTTP 200,maybe
+isover.lv,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.pk,blocked-bot-waf,robots noindex found,yes
+renault-chihuahua.com,blocked-bot-waf,Cloudflare 403,yes
+acuraofwappingersfalls.com,blocked-bot-waf,Cloudflare 403,yes
+isover.com.ar,blocked-bot-waf,HTTP 403 Forbidden,yes
+atalian.sg,blocked-bot-waf,robots noindex found,yes
+subarumidlandodessa.com,other-http,HTTP 200,maybe
+wwf.org.nz,blocked-bot-waf,Cloudflare 403,yes
+digilite.com.au,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofalexandria.com,other-http,HTTP 405,maybe
+aquatherm-belux.be,other-http,HTTP 200,maybe
+aeccglobal.co.th,other-http,HTTP 200,maybe
+kiamotors.com.co,unexpected-html,200 OK but suspiciously short (250 bytes),maybe
+renaultpatriotismo.com.mx,blocked-bot-waf,Cloudflare 403,yes
+manpower.co.za,blocked-bot-waf,Cloudflare 403,yes
+allianz-sebastiankoch.de,other-http,HTTP 200,maybe
+trulynolencampogrande.com.br,other-http,HTTP 200,maybe
+pkfcemac.com,other-http,HTTP 200,maybe
+orbico.com.mk,other-http,HTTP 200,maybe
+renaulttepic.mx,blocked-bot-waf,Cloudflare 403,yes
+einhell.pl,other-http,HTTP 200,maybe
+allianz-reiseschutz.de,blocked-bot-waf,HTTP 403 Forbidden,yes
+aiesec.gr,other-http,HTTP 200,maybe
+linexranchocordova.com,not-found,HTTP 404,yes
+starbucks.com.gr,other-http,HTTP 200,maybe
+isover.fi,blocked-bot-waf,HTTP 403 Forbidden,yes
+mazdaofnewrochelle.com,blocked-bot-waf,Cloudflare 403,yes
+cleansui-usa.com,not-found,HTTP 404,yes
+allianz.sg,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.co,blocked-bot-waf,robots noindex found,yes
+pepsico.fr,blocked-bot-waf,robots noindex found,yes
+designpluz.com,other-http,HTTP 200,maybe
+acuraofpeabody.com,other-http,HTTP 405,maybe
+eis.com.tr,other-http,HTTP 200,maybe
+siiora.org,other-http,HTTP 200,maybe
+mazdaofwooster.com,other-http,HTTP 405,maybe
+intersport.nl,other-http,HTTP 200,maybe
+cdlvitoria.com.br,other-http,HTTP 200,maybe
+countryroadsford.net,other-http,HTTP 405,maybe
+toyota-niederberger.at,blocked-bot-waf,robots noindex found,yes
+astrazeneca.com.tr,other-http,HTTP 200,maybe
+toyotabatangas.com.ph,other-http,HTTP 200,maybe
+astrazeneca.ca,other-http,HTTP 200,maybe
+mazdaofbedford.com,blocked-bot-waf,Cloudflare 403,yes
+habitatbroward.org,other-http,HTTP 503,maybe
+aon.lt,other-http,HTTP 200,maybe
+kiaofmurfreesboro.com,other-http,HTTP 405,maybe
+bigfootdigital.co.uk,other-http,HTTP 200,maybe
+azetsconsulting.no,other-http,HTTP 200,maybe
+aireserv.ca,blocked-bot-waf,Cloudflare 403,yes
+isover.co.kr,blocked-bot-waf,HTTP 403 Forbidden,yes
+invisalign.co.kr,other-http,HTTP 200,maybe
+toysrus.de,other-http,HTTP 200,maybe
+pussyspace.net,other-http,HTTP 200,maybe
+aon.lv,other-http,HTTP 200,maybe
+kiaofwestburlington.com,blocked-bot-waf,Cloudflare 403,yes
+tbwazim.co.zw,other-http,HTTP 200,maybe
+scoutaerialafrica.com,other-http,HTTP 200,maybe
+tbwa.com.hk,other-http,HTTP 200,maybe
+kiaoflumberton.com,other-http,HTTP 405,maybe
+trulynolenrecife.com.br,other-http,HTTP 200,maybe
+pepsico.rs,blocked-bot-waf,robots noindex found,yes
+trulynolenpiaui.com.br,other-http,HTTP 200,maybe
+mazdaofmilford.com,other-http,HTTP 405,maybe
+plameco.at,other-http,HTTP 200,maybe
+isover.ie,blocked-bot-waf,HTTP 403 Forbidden,yes
+ringcontainers.co.uk,other-http,HTTP 200,maybe
+renaultpatria.com.mx,blocked-bot-waf,Cloudflare 403,yes
+bluecardagency.ru,other-http,HTTP 200,maybe
+pepsico.es,blocked-bot-waf,robots noindex found,yes
+mazdademagog.com,other-http,HTTP 200,maybe
+kiaofbillings.com,other-http,HTTP 405,maybe
+reedglobal.com.tr,other-http,HTTP 200,maybe
+nissanofthebronx.com,blocked-bot-waf,Cloudflare 403,yes
+pepsico.co.it,blocked-bot-waf,robots noindex found,yes
+mazdadesherbrooke.com,other-http,HTTP 200,maybe
+kiaofcoatesville.com,other-http,HTTP 405,maybe
+astrazeneca.pt,other-http,HTTP 200,maybe
+jdm.com.pe,other-http,HTTP 200,maybe
+wurth.es,other-http,HTTP 405,maybe
+mazdaoflodi.com,other-http,HTTP 405,maybe
+kiaofmuncie.com,other-http,HTTP 405,maybe
+amway.ca,other-http,HTTP 200,maybe
+avonworldwide.com,other-http,HTTP 200,maybe
+renaultdelsol.com.mx,blocked-bot-waf,Cloudflare 403,yes
+adra.ca,other-http,HTTP 200,maybe
+pamline.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+veolia.co.uk,blocked-bot-waf,Cloudflare 403,yes
+pepsico.ua,blocked-bot-waf,robots noindex found,yes
+solatube.no,other-http,HTTP 200,maybe
+pmcorp.mx,other-http,HTTP 200,maybe
+pepsico.pt,blocked-bot-waf,robots noindex found,yes
+thegoodlobby.fr,blocked-bot-waf,HTTP 403 Forbidden,yes
+engie.com.au,blocked-bot-waf,HTTP 403 Forbidden,yes
+pepsico.com.br,blocked-bot-waf,robots noindex found,yes
+altriusconsulting.com,blocked-bot-waf,robots noindex found,yes
+acuraoframsey.com,blocked-bot-waf,Cloudflare 403,yes
+soneparusa.com,blocked-bot-waf,robots noindex found,yes
+gs1tn.org,other-http,HTTP 200,maybe
+entergy-nuclear.com,other-http,HTTP 200,maybe
+mcdonalds-mcdelivery.es,blocked-bot-waf,Cloudflare 403,yes
+savethechildren.org.uk,other-http,HTTP 200,maybe
+overheaddoorsrichmond.com,redirect,HTML redirect/script,yes
+zenithplasticsurgery.com,redirect,HTML redirect/script,yes
+isover.at,blocked-bot-waf,HTTP 403 Forbidden,yes
+isover.be,blocked-bot-waf,HTTP 403 Forbidden,yes
+amway.com.do,other-http,HTTP 200,maybe
+uxbistart.com,redirect,HTML redirect/script,yes
+trulynolenbarueri.com.br,other-http,HTTP 200,maybe
+sonepar.co,other-http,HTTP 500,maybe
+dhirajsonsonline.com,blocked-bot-waf,HTTP 403 Forbidden,yes
+norauto-empleo.es,other-http,HTTP 200,maybe
+papajohns.com.tr,blocked-bot-waf,HTTP 403 Forbidden,yes
+duracleanservices.net,not-found,HTTP 404,yes
+papajohns.com.pk,blocked-bot-waf,HTTP 403 Forbidden,yes
+ampersand-world.com,unexpected-html,200 OK but suspiciously short (105 bytes),maybe
+advantisengineering.com,other-http,HTTP 200,maybe

@@ -22,3 +22,9 @@ def sample_from_each_batch():
 
 if __name__ == "__main__":
     sample_from_each_batch()
+
+#Script for detecting false positives:
+#Used to take a small but representative sample from all extracted batches (from the large Parquet file), run the script on this subset, and manually check for any false positives among the extracted logos.
+
+
+
