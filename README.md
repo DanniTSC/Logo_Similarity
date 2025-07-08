@@ -159,7 +159,7 @@ I structured my process like a production project:
     
     - O(N²) pairwise similarity is prohibitive for thousands+ images. 
     - Bucketing by pHash prefix means we only compare images likely to be similar. 
-    - Almost no risk of false negatives at a reasonable threshold (see [bucketed grouping explanation](#scalability)).
+    - Almost no risk of false negatives at a reasonable threshold.
         
 
 ### Error Handling
@@ -219,9 +219,10 @@ This makes it easy to confirm if the same logo is used everywhere it should be.
 - Cluster 631 (20 domains for “Murr Elektronik”)
 - Instantly verify that all subdomains use the exact same logo.
     
-![BrandMonitoringMurr](batches/brandm.png)
-![BrandMonitoringServier](batches/brand_monitoring.png)
-![BrandMonitoringPKF](batches/brandmpkf.png)
+![BrandMonitoringMurr](data/pictures/brandm.png)
+![BrandMonitoringServier](data/pictures/brand_monitoring.png)
+![BrandMonitoringPKF](data/pictures/brandmpkf.png)
+
 ---
 
 #### 2. Fraud Detection
@@ -236,7 +237,7 @@ You can quickly dive deep into any cluster for a manual check.
 - Cluster shows 22 domains with the Servier logo.
 - Reviewing the domains helps confirm they are all legitimate or spot any outliers.
     
-![FraudDetect](batches/frauddetect.png)
+![FraudDetect](data/pictures/frauddetect.png)
 
 ---
 
@@ -248,7 +249,7 @@ Allows searching by any part of a domain name. The frontend returns the cluster 
 
 - Entering “zaladno” shows all franchise sites with the same zalando logo.
 
-![ReverseSearch](batches/reversesearch.png)
+![ReverseSearch](data/pictures/reversesearch.png)
     
 ---
 
@@ -263,7 +264,7 @@ Allows searching by any part of a domain name. The frontend returns the cluster 
 
 - Compare logos side-by-side for a brand with many subdomains, see any variations, and export for compliance review.
 
-![BrandConsistency](<batches/brandconsistency .png>)
+![BrandConsistency](data\pictures\brandconsistency.png)
 
 
 
