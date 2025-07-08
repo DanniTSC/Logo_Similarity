@@ -1,82 +1,74 @@
-import os
-import pandas as pd
+import os, csv
+from collections import defaultdict, deque
 from PIL import Image
 import imagehash
-from skimage.metrics import structural_similarity as ssim
 import numpy as np
-from itertools import combinations
-from collections import defaultdict
+from skimage.metrics import structural_similarity as ssim
 
-LOGOS_DIR = "data/logos/"
-HASH_CSV = "data/logo_hashes.csv"
+RAW_DIR   = "data/logos_preprocessed/"
+PHASH_THR = 12
+SSIM_THR  = 0.75
 
-def calculate_phash(image_path):
-    img = Image.open(image_path).convert('L').resize((128,128))
-    return imagehash.phash(img)
+def filename_to_domain(fname):
+    base = os.path.splitext(fname)[0]
+    parts = base.split("_")
+    return ".".join(parts[:-1])
 
-def calculate_ssim(img1_path, img2_path):
-    img1 = np.array(Image.open(img1_path).convert('L').resize((128,128)))
-    img2 = np.array(Image.open(img2_path).convert('L').resize((128,128)))
-    score, _ = ssim(img1, img2, full=True)
-    return score
+def load_images():
+    return [f for f in os.listdir(RAW_DIR) if f.endswith(".png")]
 
-def build_logo_dataframe():
-    data = []
-    for fname in os.listdir(LOGOS_DIR):
-        fpath = os.path.join(LOGOS_DIR, fname)
-        phash = calculate_phash(fpath)
-        data.append((fname, str(phash)))
-    df = pd.DataFrame(data, columns=['filename','phash'])
-    df.to_csv(HASH_CSV, index=False)
-    return df
+def calc_phash(path):
+    return imagehash.phash(Image.open(path))
 
-def group_by_phash(df, max_hamming_dist=10):
-    groups = defaultdict(list)
-    assigned = set()
-    filenames = df['filename'].tolist()
-    hashes = [imagehash.hex_to_hash(h) for h in df['phash']]
+def calc_ssim(a, b):
+    img1 = np.array(Image.open(a))
+    img2 = np.array(Image.open(b))
+    return ssim(img1, img2)
 
-    for i, (fname, hash_val) in enumerate(zip(filenames, hashes)):
-        if fname in assigned:
-            continue
-        group_id = fname
-        groups[group_id].append(fname)
-        assigned.add(fname)
+def build_similarity_graph(filenames):
+    phashes = [calc_phash(os.path.join(RAW_DIR, f)) for f in filenames]
+    graph = defaultdict(set)
+    N = len(filenames)
+    for i in range(N):
+        for j in range(i + 1, N):
+            if phashes[i] - phashes[j] <= PHASH_THR:
+                p1 = os.path.join(RAW_DIR, filenames[i])
+                p2 = os.path.join(RAW_DIR, filenames[j])
+                if calc_ssim(p1, p2) >= SSIM_THR:
+                    graph[i].add(j)
+                    graph[j].add(i)
+    return graph
 
-        for j, (fname2, hash_val2) in enumerate(zip(filenames[i+1:], hashes[i+1:])):
-            if fname2 in assigned:
-                continue
-            if hash_val - hash_val2 <= max_hamming_dist:
-                groups[group_id].append(fname2)
-                assigned.add(fname2)
-    return groups
-
-def refine_groups_with_ssim(groups, ssim_threshold=0.75):
-    refined_groups = defaultdict(list)
-    for group_id, files in groups.items():
-        refined = [files[0]]
-        base_img = os.path.join(LOGOS_DIR, files[0])
-        for fname in files[1:]:
-            compare_img = os.path.join(LOGOS_DIR, fname)
-            similarity = calculate_ssim(base_img, compare_img)
-            if similarity >= ssim_threshold:
-                refined.append(fname)
-        refined_groups[group_id] = refined
-    return refined_groups
+def connected_components(graph, N):
+    seen, comps = set(), []
+    for i in range(N):
+        if i in seen: continue
+        q, comp = deque([i]), []
+        while q:
+            u = q.popleft()
+            if u in seen: continue
+            seen.add(u)
+            comp.append(u)
+            for v in graph[u]:
+                if v not in seen:
+                    q.append(v)
+        comps.append(comp)
+    return comps
 
 def main():
-    df = build_logo_dataframe()
-    print("Calculat pHash pentru toate logo-urile.")
+    filenames = load_images()
+    graph = build_similarity_graph(filenames)
+    comps = connected_components(graph, len(filenames))
 
-    initial_groups = group_by_phash(df)
-    print(f"Grupuri inițiale formate după pHash: {len(initial_groups)}")
+    # Export CSV: each row is group_id, list of domains
+    with open("groups.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["group_id", "domains"])
+        for gid, comp in enumerate(comps, 1):
+            domains = [filename_to_domain(filenames[i]) for i in comp]
+            w.writerow([gid, ";".join(domains)])
 
-    final_groups = refine_groups_with_ssim(initial_groups)
-    print("Grupuri finale rafinate cu SSIM:")
-
-   
-    for i, (gid, members) in enumerate(final_groups.items(), 1):
-        print(f"Group {i}: {members}")
+    print(f"→ Wrote {len(comps)} groups to groups.csv")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,55 @@
+<svg style="display:none" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" width="256" height="256">
+<symbol id="circle">
+<path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z" fill="none"></path>
+</symbol>
+<symbol id="circleFilled">
+<path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z"></path>
+</symbol>
+<symbol id="dash">
+<path d="M11 11H19H3"></path>
+</symbol>
+<symbol id="squareFilled">
+<rect height="11" width="11" x="6" y="6"></rect>
+</symbol>
+<symbol id="square">
+<rect fill="none" height="9" stroke="inherit" width="9" x="7" y="7"></rect>
+</symbol>
+<symbol id="plus">
+<path d="M11 3V19"></path>
+<path d="M19 11L3 11"></path>
+</symbol>
+<symbol id="closedArrow">
+<path d="M11 11V2M11 18.1797L17 11.1477L5 11.1477L11 18.1797Z" fill="none"></path>
+</symbol>
+<symbol id="closedArrowFilled">
+<path d="M11 11L11 2" fill="none" stroke="inherit"></path>
+<path clip-rule="evenodd" d="M2.74695 9.38428L19.038 9.38428L10.8925 19.0846L2.74695 9.38428Z" fill-rule="evenodd" stroke-width="1"></path>
+</symbol>
+<symbol id="closedArrowHead" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+<path d="M18 7L11 15L4 7L18 7Z" fill="none" stroke="inherit"></path>
+</symbol>
+<symbol id="closedArrowHeadFilled" viewbox="0 0 22 22" xmlns="http://www.w3.org/2000/symbol">
+<path d="M18.875 6.5L11 15.5L3.125 6.5L18.875 6.5Z"></path>
+</symbol>
+<symbol id="openArrow">
+<path d="M11 18.3591L11 3" fill="none" stroke="inherit"></path>
+<path d="M18 11.5L11 18.5L4 11.5" fill="none" stroke="inherit"></path>
+</symbol>
+<symbol id="openArrowHead">
+<path d="M18 7L11 14L4 7" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrow">
+<path d="M11 17.3591L11 2" fill="none"></path>
+<path d="M2 11C5.85455 12.2308 8.81818 14.9038 11 18C13.1818 14.8269 16.1455 12.1538 20 11" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowFilled">
+<path d="M11.05 10.4894C7.04096 8.73759 1.05005 8 1.05005 8C6.20459 11.3191 9.41368 14.1773 11.05 21C12.6864 14.0851 15.8955 11.227 21.05 8C21.05 8 15.0591 8.73759 11.05 10.4894Z" stroke-width="1"></path>
+<path d="M11 11L11 1" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowHead">
+<path d="M2 7.24091C5.85455 8.40454 8.81818 10.9318 11 13.8591C13.1818 10.8591 16.1455 8.33181 20 7.24091" fill="none"></path>
+</symbol>
+<symbol id="pinchedArrowHeadFilled">
+<path d="M11.05 7.1591C7.04096 5.60456 1.05005 4.95001 1.05005 4.95001C6.20459 7.89547 9.41368 10.4318 11.05 16.4864C12.6864 10.35 15.8955 7.81365 21.05 4.95001C21.05 4.95001 15.0591 5.60456 11.05 7.1591Z"></path>
+</symbol>
+</svg>
