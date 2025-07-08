@@ -264,7 +264,8 @@ Allows searching by any part of a domain name. The frontend returns the cluster 
 
 - Compare logos side-by-side for a brand with many subdomains, see any variations, and export for compliance review.
 
-![BrandConsistency](data\pictures\brandconsistency.png)
+![BrandConsistency](data/pictures/brandconsistency.png)
+
 
 
 
