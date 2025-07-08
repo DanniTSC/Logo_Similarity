@@ -8,7 +8,7 @@ group_sizes = groups_df["num_domains"].value_counts().sort_index()
 print("Distribuția clară a grupurilor după numărul de domenii:")
 print(group_sizes)
 
-# clarifică și câte domenii unice ai
+
 num_unique_domains = (groups_df["num_domains"] == 1).sum()
 total_domains = groups_df["num_domains"].sum()
 

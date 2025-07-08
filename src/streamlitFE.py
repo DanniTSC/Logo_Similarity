@@ -7,7 +7,7 @@ import base64
 
 
 LOGO_DIR = "data/logos_preprocessed/"
-GROUPS_CSV = "data/groups_w_buckets.csv"
+GROUPS_CSV = "data/groups/groups_w_buckets.csv"
 
 
 @st.cache_data
@@ -89,7 +89,12 @@ elif scenario == "Reverse Logo Search":
             base = dom.replace('.', '_')
             matches = [f for f in os.listdir(LOGO_DIR) if f.startswith(base)]
             if matches:
-                st.image(load_logo(matches[0]), caption=matches[0], use_container_width=True)
+                st.image(
+                    load_logo(matches[0]),
+                    caption=matches[0],                    
+                    width=150,                
+                    use_container_width=False   
+                )
 
 elif scenario == "Brand Consistency Check":
     st.subheader("Brand Consistency: Detect logo variations")
