@@ -14,7 +14,7 @@ CSV_LOG   = "svg_patch_report.csv"
 
 DEFAULT_SIZE = 256
 
-# Common HTML entities
+# common HTML entities that may break SVG parsing if not replaced
 ENTITY_MAP = {
     "&uuml;": "ü",
     "&Uuml;": "Ü",
@@ -31,6 +31,7 @@ ENTITY_MAP = {
     
 }
 
+#read all error files from a previous error report CSV produced by preprocess step
 def get_error_files(csv_file):
     error_files = []
     with open(csv_file, encoding="utf8") as f:
@@ -39,15 +40,17 @@ def get_error_files(csv_file):
             error_files.append(row['filename'])
     return error_files
 
+#patch SVGs: fix entities, add width/height if missing, and validate XML syntax
 def patch_svg_file(path, out_path):
     try:
+        #open SVG as text
         with open(path, encoding="utf8") as f:
             data = f.read()
 
         for k, v in ENTITY_MAP.items():
             data = data.replace(k, v)
 
-     
+     #ensure <svg> tag has width and height attributes
         if re.search(r"<svg[^>]+>", data, re.IGNORECASE):
             
             m = re.search(r"<svg([^>]*)>", data, re.IGNORECASE)
@@ -66,11 +69,12 @@ def patch_svg_file(path, out_path):
         with open(out_path, "w", encoding="utf8") as f:
             f.write(data)
 
-      
+         # try parsing as XML to ensure it s now valid
         try:
             ET.fromstring(data)
             return "patched", ""
         except ET.ParseError as e:
+            # any other failure: copy file to BAD_SVG and log error
             shutil.move(out_path, os.path.join(BAD_SVG, os.path.basename(path)))
             return "xml_error", str(e)
 
@@ -78,6 +82,7 @@ def patch_svg_file(path, out_path):
         shutil.copy(path, os.path.join(BAD_SVG, os.path.basename(path)))
         return "fail", str(e)
 
+# for raster images: try opening to verify it's not corrupt
 def check_raster_file(path):
     try:
         with Image.open(path) as img:
@@ -99,10 +104,12 @@ def main():
     for fname in error_files:
         path = os.path.join(LOGOS_DIR, fname)
         if not os.path.exists(path):
+            # file missing log as error, continue
             results.append([fname, "not_found", "", "File missing!"])
             continue
         ext = fname.lower().rsplit('.', 1)[-1]
         if ext == "svg":
+            # try to patch and fix the SVG, then validate
             out_path = os.path.join(SVG_OUT, fname)
             res, err = patch_svg_file(path, out_path)
             results.append([fname, "svg", res, err])

@@ -9,12 +9,13 @@ import base64
 LOGO_DIR = "data/logos_preprocessed/"
 GROUPS_CSV = "data/groups/groups_w_buckets.csv"
 
-
+#loads a logo from disk, caches in memory for fast repeated access
 @st.cache_data
 def load_logo(filename):
     path = os.path.join(LOGO_DIR, filename)
     return Image.open(path)
 
+#returns an HTML download link for the image so user can download the PNG
 @st.cache_data
 def get_image_download_link(_img, filename):
     buffered = BytesIO()
@@ -29,11 +30,11 @@ st.title("Logo Similarity - Global Use Case Scenarios")
 st.write("Explore and analyze clusters of visually similar logos extracted from websites.")
 
 df = pd.read_csv(GROUPS_CSV)
-df['domain_list'] = df['domains'].apply(lambda x: x.split(';'))
+df['domain_list'] = df['domains'].apply(lambda x: x.split(';')) #parse semicolon-separated domains as list
 df['num_domains'] = df['domain_list'].apply(len)
 
-
-st.sidebar.title("🌍 Use Case Scenarios")
+#sidebar
+st.sidebar.title("Use Case Scenarios")
 scenario = st.sidebar.selectbox(
     "Select a scenario:",
     [
@@ -53,6 +54,7 @@ st.sidebar.bar_chart(df['num_domains'].value_counts().sort_index())
 if scenario == "Brand Monitoring":
     st.subheader("Brand Monitoring: Identify identical logos across domains")
     st.write("Check if your logo appears consistently across all sub-brands or regions.")
+    #pick the largest clusters
     candidates = df[df['num_domains'] > 1].nlargest(10, 'num_domains')
     choice = st.selectbox("Select a cluster:", candidates.index)
     cluster = candidates.loc[choice]
@@ -82,6 +84,7 @@ elif scenario == "Reverse Logo Search":
     st.subheader("Reverse Logo Search: Find domains by logo")
     query = st.text_input("Enter part of a domain name:")
     if query:
+        #serach  all the clusters, domains for that substring
         results = df[df['domains'].str.contains(query, case=False)]
         for _, row in results.iterrows():
             st.write(f"Cluster {row['group_id']}: {row['domains']}")
@@ -122,7 +125,7 @@ else:
 
 # Footer stats
 st.markdown("---")
-st.subheader("📊 Global Statistics")
+st.subheader("Global Statistics")
 col1, col2 = st.columns(2)
 col1.metric("Total Clusters", len(df))
 col2.metric("Total Logos", df['num_domains'].sum())

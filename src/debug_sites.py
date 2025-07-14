@@ -5,12 +5,13 @@ import time
 FAILED_CSV = "data/failed_sites.csv"
 OUT_CSV    = "data/failed_diagnostics.csv"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://google.com/"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)", #hhtp ehader 
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", #what to process
+    "Accept-Language": "en-US,en;q=0.9", 
+    "Referer": "https://google.com/" #where the request originated
 }
 
+# given a reason string from the diagnostic, classify whether using a browser might still access the site.
 def classify_browser_access(reason):
     if reason in {"blocked-bot-waf", "redirect", "server-default-page"}:
         return "yes"
@@ -27,6 +28,7 @@ def diagnose_error(domain):
     try:
         resp = requests.get(url, headers=HEADERS, timeout=8, verify=True, allow_redirects=True)
         txt = resp.text.lower()
+         # check for known anti-bot systems or access restrictions
         if resp.status_code == 403:
             if "cloudflare" in txt:
                 return "blocked-bot-waf", "Cloudflare 403"
@@ -47,10 +49,10 @@ def diagnose_error(domain):
             return "not-found", "HTTP 404"
         return "other-http", f"HTTP {resp.status_code}"
     except requests.exceptions.SSLError as ssl_e:
-        return "ssl", str(ssl_e)
+        return "ssl", str(ssl_e) #expired ssl certificate
     except requests.exceptions.ConnectTimeout as ce:
-        return "timeout", str(ce)
-    except requests.exceptions.ConnectionError as ce:
+        return "timeout", str(ce) # conn timeout
+    except requests.exceptions.ConnectionError as ce: #general error
         msg = str(ce)
         if "Name or service not known" in msg or "getaddrinfo failed" in msg or "NXDOMAIN" in msg:
             return "dns", msg
@@ -81,7 +83,7 @@ def test_sites_from_failed_csv():
                 "details": details,
                 "browser_accessible": browser_accessible
             })
-            time.sleep(1)
+            time.sleep(1) #small delay to avoid overload of remote servers to not get flagged as bot 
 
    
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as cf:
@@ -90,16 +92,16 @@ def test_sites_from_failed_csv():
         for row in results:
             writer.writerow(row)
     
-    
+    #prints
     total = len(results)
     n_browser_yes = sum(r['browser_accessible'] == 'yes' for r in results)
     n_browser_maybe = sum(r['browser_accessible'] == 'maybe' for r in results)
     n_browser_no = sum(r['browser_accessible'] == 'no' for r in results)
     print(f"\n[INFO] Diagnostic results saved to {OUT_CSV}")
-    print(f"Total domenii eșuate: {total}")
-    print(f"Accesibile din browser: {n_browser_yes}")
-    print(f"Probabil accesibile (maybe): {n_browser_maybe}")
-    print(f"Nu sunt accesibile: {n_browser_no}")
+    print(f"Total failed domains: {total}")
+    print(f"Browser accessible: {n_browser_yes}")
+    print(f"Maybe accessible: {n_browser_maybe}")
+    print(f"Aren't accessible: {n_browser_no}")
 
 if __name__ == "__main__":
     test_sites_from_failed_csv()

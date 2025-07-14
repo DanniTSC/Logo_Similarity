@@ -59,8 +59,6 @@ def main():
     filenames = load_images()
     graph = build_similarity_graph(filenames)
     comps = connected_components(graph, len(filenames))
-
-    # Export CSV: each row is group_id, list of domains
     with open("groups.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["group_id", "domains"])

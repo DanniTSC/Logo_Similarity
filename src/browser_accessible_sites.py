@@ -9,8 +9,9 @@ def filter_browser_accessible():
         reader = csv.DictReader(fin)
         for row in reader:
             if row["browser_accessible"].lower() in {"yes", "maybe"}:
-                rows.append(row)
+                rows.append(row) #adds the rows that are yes or maybe 
 
+    #output csv with the filtered results 
     with open(OUT_CSV, "w", newline='', encoding='utf-8') as fout:
         writer = csv.DictWriter(fout, fieldnames=reader.fieldnames)
         writer.writeheader()
